@@ -92,7 +92,6 @@ def save_data(ti) -> str:
     return data_frame.to_json()
 
 
-
 with DAG(
     dag_id="simple_consumer_purchase_dag",
     description="Simple Consumer DAG for Purchase Data",
