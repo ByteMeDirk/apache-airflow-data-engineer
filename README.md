@@ -2,6 +2,8 @@
 
 Mastering Apache Airflow for Data Engineers: A Comprehensive Guide to Key Features and Functionalities
 
+You can find the link to the tutorial [here](https://medium.com/@bytemedirk/apache-airflow-for-data-engineers-ca39cc897070).
+
 # Airflow Environment Setup
 
 This project uses Apache Airflow to manage and schedule data pipelines. The project is containerized using Docker and
