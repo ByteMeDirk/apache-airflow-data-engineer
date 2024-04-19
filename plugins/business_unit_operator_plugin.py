@@ -83,5 +83,6 @@ class BusinessUnitOperatorPlugin(AirflowPlugin):
     """
     A plugin to register the BusinessUnitOperator.
     """
+
     name = "business_unit_operator_plugin"
     operators = [BusinessUnitOperator]

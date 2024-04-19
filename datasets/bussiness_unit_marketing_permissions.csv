@@ -1,0 +1,1001 @@
+customer_id,email_opt_in,sms_opt_in,mail_opt_in,marketing_channel,last_interaction_date,purchase_history,preferred_language,age_range,income_range,marketing_permissions_updated_at
+1,true,false,true,SMS,5/12/2020,"[{},{},{},{},{}]",Gagauz,55-64,$25k-$50k,8/21/2020
+2,false,false,true,email,9/14/2020,"[{},{},{},{},{}]",Montenegrin,35-44,$50k-$75k,6/29/2020
+3,true,true,false,SMS,10/26/2021,"[{},{},{},{}]",Pashto,45-54,$50k-$75k,9/10/2021
+4,false,false,false,email,9/21/2021,[{}],Japanese,25-34,> $100k,1/21/2020
+5,true,false,false,email,3/11/2020,"[{},{},{}]",Burmese,55-64,< $25k,5/23/2020
+6,false,false,true,email,9/30/2021,"[{},{}]",Tajik,25-34,> $100k,12/1/2021
+7,false,false,false,direct mail,4/25/2021,[],Tsonga,35-44,$75k-$100k,1/25/2021
+8,false,true,true,SMS,3/28/2021,"[{},{},{}]",Persian,65+,$50k-$75k,7/6/2021
+9,false,true,true,email,2/28/2021,"[{},{},{}]",Belarusian,55-64,$25k-$50k,8/17/2020
+10,true,true,false,SMS,2/18/2021,[{}],French,18-24,> $100k,8/7/2021
+11,true,false,true,email,4/26/2020,[{}],Czech,55-64,$25k-$50k,1/9/2020
+12,false,true,false,email,2/18/2020,"[{},{}]",Czech,65+,$50k-$75k,6/21/2021
+13,true,false,true,direct mail,9/15/2021,"[{},{},{}]",Punjabi,45-54,$50k-$75k,3/21/2021
+14,false,true,false,direct mail,2/23/2020,"[{},{}]",Khmer,65+,$75k-$100k,8/26/2021
+15,false,false,true,SMS,3/14/2021,"[{},{},{},{},{}]",Hungarian,35-44,$50k-$75k,10/1/2020
+16,false,false,false,email,9/15/2021,[],Kashmiri,35-44,< $25k,10/3/2021
+17,false,true,true,email,8/11/2020,"[{},{},{}]",Punjabi,25-34,$25k-$50k,4/3/2021
+18,false,true,true,direct mail,4/17/2021,[{}],Lao,35-44,$75k-$100k,1/8/2021
+19,false,false,true,direct mail,7/12/2020,"[{},{},{},{}]",Pashto,65+,< $25k,8/6/2020
+20,true,false,false,SMS,6/14/2020,[{}],Icelandic,65+,$25k-$50k,11/30/2020
+21,false,true,false,email,10/30/2021,"[{},{}]",Kazakh,25-34,< $25k,3/11/2021
+22,false,false,false,SMS,10/2/2021,[],Malay,65+,$25k-$50k,9/2/2021
+23,false,true,false,email,12/22/2021,[],Burmese,65+,$75k-$100k,11/30/2021
+24,false,false,false,direct mail,5/24/2020,"[{},{},{}]",Arabic,35-44,< $25k,10/13/2020
+25,true,true,true,email,7/24/2021,"[{},{},{}]",Kannada,18-24,$75k-$100k,10/18/2021
+26,false,true,false,SMS,11/7/2020,"[{},{},{},{}]",Northern Sotho,25-34,$75k-$100k,1/27/2020
+27,true,true,false,direct mail,7/13/2020,"[{},{}]",Japanese,35-44,> $100k,9/29/2020
+28,false,false,false,direct mail,1/9/2021,"[{},{}]",Latvian,65+,$50k-$75k,4/24/2020
+29,false,true,false,direct mail,5/14/2021,"[{},{}]",Hebrew,55-64,$25k-$50k,10/15/2020
+30,false,true,true,SMS,4/3/2020,"[{},{}]",Spanish,35-44,< $25k,6/20/2020
+31,false,false,false,email,8/19/2020,"[{},{},{},{}]",Ndebele,35-44,< $25k,12/19/2020
+32,true,true,false,email,2/11/2020,[],Punjabi,45-54,< $25k,11/2/2021
+33,false,true,true,email,12/31/2020,[{}],Danish,65+,< $25k,9/1/2021
+34,false,false,false,email,8/13/2021,"[{},{},{},{}]",Bulgarian,65+,< $25k,8/29/2021
+35,false,true,true,email,12/22/2021,[{}],Fijian,25-34,> $100k,12/28/2021
+36,true,false,true,direct mail,10/23/2020,"[{},{},{}]",Portuguese,55-64,> $100k,9/24/2021
+37,false,true,false,direct mail,7/25/2021,"[{},{}]",Georgian,45-54,$50k-$75k,3/20/2021
+38,true,true,false,email,1/15/2020,"[{},{},{},{},{}]",Afrikaans,45-54,< $25k,6/26/2020
+39,false,true,false,SMS,4/18/2021,"[{},{},{}]",Korean,45-54,< $25k,5/2/2021
+40,false,false,true,email,6/22/2021,"[{},{},{},{},{}]",Dhivehi,18-24,$25k-$50k,11/20/2021
+41,false,false,true,direct mail,8/20/2020,"[{},{},{}]",Swati,25-34,$75k-$100k,3/23/2021
+42,false,false,true,email,8/27/2021,"[{},{},{},{},{}]",Montenegrin,55-64,$75k-$100k,1/30/2020
+43,true,true,false,email,3/8/2021,"[{},{},{},{}]",Irish Gaelic,18-24,< $25k,3/9/2020
+44,true,false,false,SMS,8/20/2020,"[{},{},{},{},{}]",Italian,35-44,$25k-$50k,8/7/2021
+45,false,false,false,email,6/4/2020,"[{},{}]",Dari,18-24,< $25k,12/6/2021
+46,true,true,true,SMS,7/21/2020,"[{},{},{},{},{}]",Lao,18-24,< $25k,12/12/2020
+47,false,false,true,SMS,10/15/2021,"[{},{},{}]",Afrikaans,35-44,$75k-$100k,11/5/2021
+48,false,true,true,email,3/12/2021,[],Polish,25-34,> $100k,8/23/2021
+49,true,false,true,SMS,7/21/2021,"[{},{},{}]",Catalan,65+,$25k-$50k,5/14/2020
+50,false,false,false,email,7/16/2020,"[{},{},{},{},{}]",Bislama,45-54,> $100k,1/25/2021
+51,true,true,false,email,5/1/2021,"[{},{},{},{}]",Japanese,25-34,< $25k,9/6/2020
+52,true,false,false,direct mail,1/26/2021,[{}],Bulgarian,65+,$75k-$100k,3/28/2021
+53,false,false,false,SMS,3/16/2021,"[{},{},{}]",West Frisian,25-34,< $25k,3/28/2021
+54,true,true,false,direct mail,8/1/2020,[],Malagasy,45-54,< $25k,7/14/2021
+55,false,true,false,SMS,5/27/2020,"[{},{},{},{}]",Danish,35-44,$25k-$50k,6/30/2020
+56,false,true,true,direct mail,12/26/2021,"[{},{},{},{},{}]",Papiamento,55-64,$75k-$100k,2/18/2021
+57,false,true,false,email,10/17/2020,"[{},{}]",Hebrew,35-44,> $100k,5/9/2020
+58,false,true,false,SMS,1/9/2020,"[{},{},{},{},{}]",Punjabi,55-64,$50k-$75k,5/19/2020
+59,false,false,false,SMS,12/13/2021,"[{},{},{},{}]",Tajik,65+,< $25k,1/3/2021
+60,true,false,false,direct mail,5/5/2021,"[{},{},{},{},{}]",Icelandic,18-24,$50k-$75k,10/10/2020
+61,true,false,false,SMS,9/20/2020,"[{},{},{},{}]",Nepali,55-64,< $25k,1/30/2020
+62,true,true,false,direct mail,10/5/2020,"[{},{},{}]",Belarusian,25-34,$75k-$100k,12/24/2021
+63,true,true,false,email,12/28/2020,[],Haitian Creole,18-24,$75k-$100k,3/7/2021
+64,true,true,false,SMS,6/17/2021,"[{},{},{}]",Filipino,65+,$75k-$100k,12/11/2021
+65,true,false,true,direct mail,8/24/2021,[{}],French,65+,$75k-$100k,9/13/2020
+66,false,false,false,email,11/3/2021,[{}],Tswana,25-34,< $25k,4/15/2020
+67,false,true,true,direct mail,10/25/2020,"[{},{},{},{}]",Spanish,65+,$50k-$75k,9/10/2021
+68,false,true,true,email,5/25/2020,[{}],Kashmiri,55-64,< $25k,3/27/2021
+69,false,false,false,email,12/20/2020,[{}],Hebrew,55-64,$75k-$100k,10/10/2020
+70,true,false,true,email,9/1/2020,[{}],Mongolian,25-34,$25k-$50k,1/18/2020
+71,false,true,true,SMS,6/28/2021,[{}],Assamese,55-64,$50k-$75k,8/2/2021
+72,false,false,true,email,8/13/2021,[{}],Macedonian,18-24,$75k-$100k,5/2/2021
+73,true,true,false,email,9/19/2021,[{}],Dzongkha,18-24,$25k-$50k,11/20/2021
+74,true,false,false,email,8/18/2021,[],Georgian,25-34,> $100k,12/7/2021
+75,false,true,false,SMS,8/17/2020,[],Bislama,18-24,$25k-$50k,11/4/2020
+76,true,true,false,SMS,3/1/2021,"[{},{},{},{},{}]",Catalan,55-64,$50k-$75k,5/16/2021
+77,true,true,true,email,3/20/2020,"[{},{}]",Lao,55-64,> $100k,1/3/2020
+78,true,false,false,email,12/19/2021,[{}],Fijian,45-54,> $100k,10/18/2020
+79,false,true,false,email,9/9/2021,"[{},{},{},{}]",Tetum,18-24,$75k-$100k,8/6/2021
+80,true,false,false,SMS,10/17/2020,"[{},{},{},{},{}]",Croatian,45-54,$50k-$75k,12/9/2020
+81,true,true,false,direct mail,5/14/2021,"[{},{}]",Tamil,45-54,< $25k,5/17/2021
+82,true,false,true,SMS,11/19/2020,[{}],Latvian,55-64,$50k-$75k,8/10/2020
+83,true,false,true,direct mail,11/22/2020,"[{},{}]",Amharic,18-24,$75k-$100k,12/25/2020
+84,true,true,false,SMS,1/9/2021,"[{},{},{}]",Polish,25-34,> $100k,9/22/2021
+85,false,false,false,SMS,2/3/2021,"[{},{},{}]",Haitian Creole,55-64,$75k-$100k,12/10/2020
+86,true,true,false,email,7/9/2021,"[{},{},{},{}]",Kyrgyz,45-54,> $100k,10/1/2020
+87,false,true,false,direct mail,1/28/2021,[],Hiri Motu,55-64,< $25k,12/13/2020
+88,true,false,false,email,10/13/2020,"[{},{},{},{},{}]",Punjabi,25-34,> $100k,7/24/2021
+89,true,true,false,email,9/22/2020,[{}],Portuguese,45-54,$50k-$75k,9/12/2021
+90,false,false,true,direct mail,12/30/2020,"[{},{},{},{}]",Māori,18-24,< $25k,4/29/2020
+91,true,false,true,SMS,6/9/2021,"[{},{},{},{}]",Spanish,45-54,< $25k,12/5/2020
+92,false,true,false,email,12/18/2021,"[{},{},{}]",Tetum,45-54,$75k-$100k,4/17/2021
+93,true,false,false,SMS,1/31/2021,[{}],Tswana,55-64,< $25k,9/2/2021
+94,false,true,false,email,10/27/2020,"[{},{},{},{},{}]",Japanese,18-24,< $25k,11/5/2021
+95,false,false,true,SMS,2/26/2021,[{}],Hebrew,35-44,$75k-$100k,10/26/2020
+96,false,true,true,email,3/4/2021,"[{},{}]",Tsonga,55-64,$50k-$75k,7/6/2020
+97,false,true,false,email,10/18/2020,"[{},{},{},{}]",Burmese,25-34,$75k-$100k,7/15/2020
+98,true,true,true,SMS,8/30/2020,[{}],Swedish,55-64,> $100k,1/31/2021
+99,true,false,true,SMS,11/3/2021,"[{},{}]",Tetum,55-64,< $25k,8/23/2020
+100,false,false,true,email,4/4/2020,[{}],Malagasy,65+,$50k-$75k,3/13/2021
+101,false,true,false,email,5/12/2021,"[{},{},{}]",Ndebele,18-24,$75k-$100k,12/6/2021
+102,true,true,false,SMS,4/16/2021,[{}],Kannada,25-34,$25k-$50k,11/12/2021
+103,false,false,false,SMS,9/18/2021,"[{},{},{},{},{}]",Māori,25-34,$75k-$100k,6/2/2021
+104,true,false,false,email,6/8/2020,[],Greek,55-64,$50k-$75k,1/28/2020
+105,true,false,false,direct mail,12/27/2021,"[{},{},{},{}]",Maltese,65+,$50k-$75k,3/14/2020
+106,true,true,false,email,2/10/2021,"[{},{}]",Kurdish,18-24,$75k-$100k,8/1/2020
+107,true,false,true,email,5/6/2020,"[{},{},{}]",Georgian,65+,$75k-$100k,7/27/2020
+108,true,true,false,direct mail,12/26/2020,"[{},{},{}]",Romanian,25-34,> $100k,3/26/2020
+109,true,true,false,email,1/24/2020,"[{},{},{},{}]",Kyrgyz,25-34,$75k-$100k,9/25/2020
+110,true,false,false,SMS,2/9/2021,[{}],Azeri,18-24,$75k-$100k,4/24/2020
+111,true,false,false,SMS,5/15/2020,"[{},{},{},{}]",Danish,65+,< $25k,10/1/2020
+112,false,true,false,direct mail,10/16/2020,[{}],Thai,55-64,$50k-$75k,11/22/2021
+113,true,false,true,email,1/9/2020,"[{},{}]",Fijian,55-64,< $25k,7/12/2020
+114,true,false,true,direct mail,4/10/2020,"[{},{},{}]",German,45-54,< $25k,7/31/2021
+115,false,false,false,direct mail,12/29/2020,"[{},{},{},{}]",Tok Pisin,18-24,$75k-$100k,4/25/2020
+116,false,false,false,SMS,11/1/2020,"[{},{}]",Croatian,35-44,$50k-$75k,5/15/2020
+117,false,true,false,email,10/20/2020,"[{},{},{},{},{}]",Armenian,55-64,< $25k,12/5/2021
+118,false,true,true,direct mail,1/14/2021,"[{},{}]",Italian,55-64,> $100k,8/2/2020
+119,true,true,false,email,7/1/2021,"[{},{}]",West Frisian,65+,> $100k,2/2/2021
+120,false,true,true,SMS,10/20/2020,"[{},{}]",Yiddish,55-64,< $25k,12/18/2020
+121,true,true,true,direct mail,3/31/2021,"[{},{}]",Romanian,65+,> $100k,6/10/2020
+122,false,true,false,email,1/29/2021,"[{},{},{},{}]",Tetum,35-44,$25k-$50k,2/13/2020
+123,true,false,false,email,2/12/2021,"[{},{}]",Tsonga,35-44,$75k-$100k,4/20/2020
+124,true,true,false,email,2/29/2020,"[{},{},{},{},{}]",Polish,35-44,$75k-$100k,8/28/2020
+125,true,true,true,SMS,6/13/2020,[{}],Bengali,18-24,< $25k,4/8/2020
+126,false,true,true,SMS,11/6/2020,"[{},{}]",Swahili,45-54,> $100k,4/20/2021
+127,true,false,true,email,10/19/2021,"[{},{},{}]",Kazakh,18-24,$75k-$100k,9/26/2021
+128,true,true,true,direct mail,6/5/2021,"[{},{},{},{}]",Latvian,45-54,$25k-$50k,12/12/2021
+129,false,false,true,SMS,4/12/2021,"[{},{},{},{}]",Ndebele,18-24,$50k-$75k,7/7/2020
+130,false,false,false,email,11/9/2021,[{}],Malay,45-54,$25k-$50k,3/4/2021
+131,false,true,true,direct mail,10/15/2020,"[{},{},{},{}]",Gujarati,18-24,< $25k,2/14/2020
+132,true,true,false,email,6/3/2020,"[{},{},{}]",Spanish,55-64,> $100k,2/15/2021
+133,false,true,true,SMS,11/25/2021,"[{},{},{},{}]",Luxembourgish,45-54,$75k-$100k,8/16/2020
+134,false,false,false,direct mail,3/6/2020,"[{},{},{}]",Northern Sotho,45-54,$50k-$75k,9/6/2020
+135,true,false,true,direct mail,6/10/2021,"[{},{},{},{}]",Catalan,18-24,$25k-$50k,3/10/2021
+136,false,false,false,SMS,3/15/2021,"[{},{},{},{}]",Khmer,55-64,$75k-$100k,11/11/2021
+137,true,true,false,direct mail,7/7/2021,"[{},{},{},{}]",Greek,65+,< $25k,2/16/2020
+138,true,true,false,email,6/19/2020,"[{},{}]",Thai,55-64,> $100k,4/27/2021
+139,false,true,true,direct mail,6/19/2020,[],Punjabi,35-44,$50k-$75k,7/19/2021
+140,false,true,true,email,9/29/2020,"[{},{}]",Afrikaans,35-44,> $100k,1/27/2021
+141,true,true,true,SMS,8/17/2021,"[{},{},{}]",Kyrgyz,45-54,< $25k,9/8/2020
+142,false,false,true,direct mail,2/15/2021,"[{},{},{},{},{}]",Papiamento,18-24,$75k-$100k,11/16/2020
+143,false,true,true,SMS,10/6/2021,"[{},{},{},{}]",Japanese,18-24,$50k-$75k,11/27/2020
+144,false,false,false,direct mail,1/31/2020,"[{},{},{},{},{}]",Quechua,45-54,$50k-$75k,8/7/2020
+145,false,false,false,SMS,1/15/2020,"[{},{},{},{}]",Haitian Creole,65+,> $100k,1/24/2020
+146,false,true,true,direct mail,10/19/2020,"[{},{},{},{}]",Bislama,18-24,$75k-$100k,8/23/2021
+147,true,false,false,SMS,8/29/2021,"[{},{},{}]",Indonesian,18-24,$25k-$50k,10/30/2020
+148,true,false,true,SMS,10/6/2020,"[{},{},{}]",Maltese,45-54,$50k-$75k,11/7/2021
+149,true,false,false,direct mail,9/24/2021,"[{},{},{},{},{}]",Portuguese,45-54,< $25k,12/22/2021
+150,true,true,true,email,6/30/2020,[{}],Italian,65+,$75k-$100k,12/17/2021
+151,false,true,false,SMS,7/31/2020,[],Yiddish,35-44,< $25k,7/11/2020
+152,false,false,true,direct mail,5/28/2020,"[{},{},{}]",Sotho,18-24,> $100k,10/31/2021
+153,true,false,true,direct mail,9/5/2020,[],Persian,55-64,$75k-$100k,8/31/2020
+154,true,false,true,email,1/7/2021,"[{},{},{},{},{}]",Burmese,25-34,$25k-$50k,1/6/2021
+155,true,false,true,direct mail,1/26/2020,"[{},{},{},{}]",Tajik,65+,$75k-$100k,5/20/2020
+156,true,false,false,SMS,12/27/2020,"[{},{},{}]",Swati,65+,$50k-$75k,4/1/2021
+157,false,false,false,SMS,3/5/2020,"[{},{},{}]",Marathi,35-44,$25k-$50k,7/30/2020
+158,true,false,true,SMS,3/20/2020,"[{},{},{},{}]",Arabic,18-24,$75k-$100k,12/31/2020
+159,true,true,true,email,4/16/2020,"[{},{},{},{},{}]",Dzongkha,25-34,< $25k,6/27/2021
+160,true,true,false,direct mail,3/10/2021,"[{},{},{}]",Kashmiri,25-34,> $100k,8/18/2021
+161,true,true,false,direct mail,6/2/2021,[{}],Georgian,25-34,$25k-$50k,4/11/2021
+162,false,false,true,email,7/8/2021,"[{},{},{}]",Northern Sotho,45-54,$50k-$75k,2/9/2020
+163,true,false,true,SMS,4/11/2020,"[{},{}]",Italian,35-44,< $25k,1/7/2020
+164,true,false,true,direct mail,12/19/2021,"[{},{},{}]",Punjabi,55-64,< $25k,8/6/2020
+165,false,false,false,email,9/20/2020,[{}],Dhivehi,55-64,$25k-$50k,9/25/2021
+166,true,true,false,email,2/14/2021,"[{},{}]",Lithuanian,35-44,< $25k,9/24/2020
+167,true,true,true,direct mail,10/23/2021,[{}],Macedonian,45-54,> $100k,10/1/2020
+168,true,true,true,direct mail,6/17/2021,"[{},{}]",French,35-44,> $100k,11/12/2020
+169,true,false,true,SMS,3/1/2020,"[{},{}]",Catalan,35-44,$25k-$50k,11/3/2020
+170,true,false,false,email,8/4/2020,"[{},{},{}]",Hebrew,45-54,< $25k,4/29/2020
+171,true,false,false,email,10/22/2020,"[{},{},{},{},{}]",Marathi,18-24,$25k-$50k,7/20/2020
+172,false,true,true,direct mail,9/15/2020,[],Ndebele,18-24,$25k-$50k,2/18/2021
+173,true,false,false,direct mail,2/21/2021,"[{},{},{},{},{}]",Spanish,55-64,$50k-$75k,8/23/2021
+174,false,true,false,SMS,1/1/2020,"[{},{},{},{}]",Maltese,55-64,> $100k,6/14/2020
+175,true,false,true,email,10/21/2020,[],Montenegrin,25-34,$25k-$50k,6/21/2020
+176,true,true,false,SMS,11/1/2021,"[{},{},{},{}]",Montenegrin,55-64,$25k-$50k,7/8/2020
+177,false,true,true,email,5/25/2020,"[{},{},{},{},{}]",Hebrew,65+,$75k-$100k,12/30/2020
+178,false,false,false,email,4/17/2021,[],Moldovan,45-54,$75k-$100k,6/5/2021
+179,true,false,true,SMS,4/13/2021,[{}],Gagauz,65+,> $100k,12/24/2020
+180,true,true,false,SMS,5/29/2020,"[{},{},{}]",Maltese,35-44,$75k-$100k,5/5/2021
+181,true,false,false,email,4/12/2020,[{}],Sotho,55-64,$25k-$50k,9/15/2020
+182,false,false,false,direct mail,12/13/2020,"[{},{},{},{}]",Oriya,55-64,$50k-$75k,6/15/2020
+183,false,false,true,SMS,3/4/2021,"[{},{},{},{}]",Mongolian,35-44,$50k-$75k,2/23/2020
+184,true,false,true,email,3/21/2021,[{}],Māori,35-44,< $25k,11/30/2020
+185,true,true,true,email,7/5/2021,[],Catalan,18-24,$25k-$50k,7/21/2020
+186,false,false,false,email,6/2/2020,"[{},{},{}]",Macedonian,55-64,$75k-$100k,9/23/2020
+187,true,false,true,SMS,5/20/2020,"[{},{},{},{},{}]",Afrikaans,35-44,$25k-$50k,12/8/2021
+188,false,false,false,SMS,6/20/2021,"[{},{}]",Kashmiri,55-64,< $25k,8/24/2020
+189,true,false,false,direct mail,12/4/2021,"[{},{},{}]",French,25-34,$50k-$75k,2/8/2021
+190,true,false,true,direct mail,7/2/2021,[{}],Tok Pisin,35-44,$25k-$50k,9/23/2020
+191,true,true,true,direct mail,9/22/2021,"[{},{}]",French,55-64,< $25k,4/13/2020
+192,false,true,true,direct mail,10/10/2021,"[{},{},{},{}]",Georgian,45-54,$25k-$50k,2/24/2021
+193,false,false,true,SMS,1/23/2021,[{}],Thai,55-64,$25k-$50k,4/21/2021
+194,true,false,false,SMS,11/1/2020,"[{},{},{},{},{}]",Danish,35-44,$50k-$75k,4/24/2020
+195,true,false,true,email,4/28/2020,"[{},{},{},{}]",Japanese,55-64,> $100k,11/21/2020
+196,false,false,false,direct mail,3/17/2021,"[{},{},{}]",Tsonga,35-44,> $100k,10/8/2021
+197,true,true,false,email,3/9/2021,[{}],Malagasy,55-64,> $100k,5/29/2020
+198,true,true,false,email,1/20/2020,"[{},{},{},{},{}]",Bengali,45-54,> $100k,6/14/2020
+199,false,false,false,email,12/18/2021,[{}],Greek,55-64,$75k-$100k,7/23/2020
+200,true,true,false,email,6/23/2021,"[{},{},{},{}]",Pashto,65+,$25k-$50k,1/28/2021
+201,true,true,false,email,3/13/2020,[],Portuguese,55-64,< $25k,9/14/2020
+202,true,false,true,direct mail,5/13/2021,"[{},{},{},{}]",Hungarian,55-64,> $100k,7/19/2021
+203,false,false,false,direct mail,1/6/2020,[],Zulu,55-64,> $100k,2/20/2020
+204,true,true,true,direct mail,11/9/2021,"[{},{}]",Maltese,55-64,$25k-$50k,5/1/2020
+205,true,true,true,direct mail,12/20/2021,"[{},{},{}]",Finnish,45-54,< $25k,3/31/2021
+206,false,false,false,SMS,12/11/2020,"[{},{},{}]",Hindi,35-44,< $25k,5/16/2021
+207,false,true,false,email,4/27/2021,"[{},{},{},{},{}]",Tetum,18-24,> $100k,9/8/2020
+208,false,true,true,email,11/27/2021,"[{},{},{}]",Khmer,55-64,$75k-$100k,7/5/2020
+209,true,false,true,direct mail,12/12/2020,"[{},{},{},{},{}]",Kannada,55-64,$25k-$50k,4/9/2021
+210,true,false,true,email,11/28/2020,"[{},{}]",Tetum,65+,> $100k,11/19/2021
+211,true,false,true,SMS,11/18/2020,"[{},{},{},{}]",Dutch,45-54,$50k-$75k,6/9/2021
+212,false,false,false,email,10/20/2020,"[{},{},{},{}]",Gujarati,35-44,> $100k,2/5/2020
+213,true,true,false,direct mail,9/17/2020,"[{},{},{},{}]",Burmese,35-44,$50k-$75k,9/13/2020
+214,true,true,false,email,8/1/2021,"[{},{},{},{}]",Fijian,18-24,$75k-$100k,10/8/2020
+215,true,true,false,email,1/24/2020,"[{},{},{},{},{}]",Japanese,55-64,< $25k,10/25/2021
+216,true,true,false,SMS,6/4/2020,"[{},{},{},{}]",Dhivehi,45-54,< $25k,3/22/2020
+217,true,false,true,direct mail,2/19/2020,"[{},{}]",Pashto,65+,$25k-$50k,3/10/2021
+218,true,true,false,email,11/30/2020,"[{},{},{}]",Bulgarian,18-24,< $25k,11/15/2020
+219,false,true,true,SMS,8/21/2020,"[{},{},{}]",Dzongkha,35-44,$75k-$100k,9/8/2021
+220,false,false,false,email,1/2/2021,"[{},{},{},{}]",New Zealand Sign Language,25-34,< $25k,5/11/2021
+221,false,false,true,email,8/13/2020,"[{},{},{},{},{}]",Polish,55-64,> $100k,8/24/2020
+222,false,false,true,email,9/4/2020,"[{},{},{}]",Latvian,55-64,> $100k,11/1/2020
+223,false,false,true,email,8/24/2021,"[{},{}]",Malayalam,45-54,> $100k,5/17/2021
+224,true,false,false,direct mail,12/23/2020,[],Thai,35-44,$75k-$100k,12/14/2020
+225,false,true,true,SMS,3/16/2021,"[{},{},{},{},{}]",Italian,55-64,$25k-$50k,8/23/2020
+226,true,false,true,direct mail,7/2/2020,[{}],Indonesian,45-54,< $25k,12/23/2020
+227,true,true,false,direct mail,2/28/2020,[{}],Indonesian,18-24,< $25k,12/20/2020
+228,true,true,true,email,12/22/2021,"[{},{}]",Somali,45-54,$75k-$100k,5/25/2021
+229,true,true,true,email,2/14/2020,"[{},{},{},{}]",Romanian,25-34,$75k-$100k,2/4/2020
+230,false,true,true,email,7/22/2021,"[{},{},{},{},{}]",Japanese,35-44,$50k-$75k,11/10/2021
+231,true,true,true,SMS,1/21/2021,"[{},{},{},{},{}]",Georgian,25-34,$25k-$50k,12/8/2021
+232,true,true,true,email,9/15/2020,"[{},{},{},{}]",Aymara,65+,$75k-$100k,7/5/2021
+233,true,false,false,SMS,7/2/2020,"[{},{}]",Papiamento,35-44,$25k-$50k,9/4/2020
+234,true,true,true,email,5/5/2021,"[{},{},{},{},{}]",Kannada,35-44,$75k-$100k,8/18/2021
+235,true,true,false,SMS,6/20/2020,"[{},{},{},{}]",Quechua,55-64,> $100k,1/3/2020
+236,false,true,true,SMS,10/14/2021,"[{},{},{},{},{}]",Thai,35-44,> $100k,12/19/2021
+237,false,true,true,SMS,4/7/2021,[],Bengali,65+,$25k-$50k,2/3/2020
+238,false,true,false,SMS,11/17/2021,"[{},{},{},{},{}]",Dhivehi,18-24,> $100k,2/28/2020
+239,false,true,false,SMS,10/10/2020,"[{},{}]",Hebrew,55-64,$25k-$50k,9/12/2020
+240,false,true,false,SMS,9/15/2020,"[{},{},{},{},{}]",Tajik,18-24,< $25k,1/6/2020
+241,false,true,true,email,1/4/2020,[],Maltese,55-64,$75k-$100k,5/25/2020
+242,false,true,false,email,4/26/2020,"[{},{},{},{}]",Armenian,55-64,< $25k,11/16/2021
+243,true,false,false,direct mail,1/29/2020,"[{},{},{},{},{}]",Indonesian,45-54,< $25k,10/16/2020
+244,true,false,false,email,1/20/2021,"[{},{},{},{}]",Dzongkha,35-44,$75k-$100k,5/21/2020
+245,true,false,false,email,3/9/2021,"[{},{},{},{}]",Kyrgyz,25-34,> $100k,7/9/2021
+246,true,true,false,SMS,10/15/2020,"[{},{},{}]",Fijian,25-34,$75k-$100k,4/6/2020
+247,true,false,false,email,4/12/2021,"[{},{},{},{}]",Dhivehi,65+,$75k-$100k,1/2/2021
+248,false,false,true,email,12/6/2021,"[{},{},{},{}]",Gujarati,65+,$50k-$75k,5/28/2020
+249,false,false,false,direct mail,6/16/2021,"[{},{},{},{}]",Khmer,35-44,< $25k,10/16/2020
+250,false,true,false,direct mail,9/9/2021,"[{},{},{},{}]",Afrikaans,45-54,$50k-$75k,4/1/2020
+251,true,true,true,email,10/20/2020,[{}],Luxembourgish,18-24,< $25k,4/14/2021
+252,true,true,true,direct mail,12/21/2021,[{}],Polish,45-54,$75k-$100k,12/19/2020
+253,false,true,true,SMS,12/15/2020,"[{},{}]",Swedish,65+,> $100k,8/3/2021
+254,true,false,true,email,10/7/2020,"[{},{},{}]",Catalan,65+,< $25k,7/3/2020
+255,true,true,true,direct mail,8/19/2020,[],Aymara,18-24,$75k-$100k,4/25/2021
+256,false,true,true,email,3/11/2020,[{}],Ndebele,55-64,> $100k,2/10/2020
+257,false,true,true,SMS,12/18/2021,[{}],Dari,65+,$25k-$50k,9/7/2020
+258,false,true,true,SMS,5/26/2021,"[{},{},{}]",Swahili,35-44,< $25k,10/15/2021
+259,true,false,true,direct mail,1/25/2020,[{}],Malay,18-24,< $25k,12/28/2020
+260,false,true,false,SMS,10/29/2020,[{}],Japanese,55-64,< $25k,7/13/2021
+261,true,false,true,SMS,2/15/2020,"[{},{},{},{},{}]",Dhivehi,25-34,$75k-$100k,4/28/2021
+262,true,false,false,SMS,8/30/2021,"[{},{},{},{},{}]",Mongolian,65+,> $100k,12/5/2020
+263,false,true,false,direct mail,2/25/2020,"[{},{},{},{},{}]",Tamil,25-34,< $25k,9/8/2020
+264,false,true,true,SMS,8/16/2021,"[{},{},{},{},{}]",Norwegian,25-34,> $100k,9/5/2020
+265,false,true,true,SMS,7/7/2020,[],Oriya,25-34,$50k-$75k,12/15/2020
+266,true,false,false,SMS,10/22/2020,[],Quechua,45-54,$50k-$75k,3/11/2021
+267,false,false,true,SMS,2/26/2020,[],Swati,25-34,< $25k,9/6/2020
+268,true,true,false,SMS,3/27/2021,[{}],Yiddish,25-34,> $100k,9/28/2021
+269,true,false,true,direct mail,9/16/2021,"[{},{}]",Spanish,25-34,$75k-$100k,12/17/2020
+270,true,false,false,direct mail,3/23/2020,"[{},{}]",Macedonian,65+,$75k-$100k,10/24/2021
+271,true,false,false,email,10/11/2021,[{}],Catalan,65+,$50k-$75k,5/7/2020
+272,true,false,false,SMS,9/3/2021,"[{},{},{}]",Mongolian,18-24,$25k-$50k,9/11/2020
+273,true,true,false,email,5/20/2021,"[{},{},{},{},{}]",Norwegian,25-34,$75k-$100k,5/22/2021
+274,true,true,true,SMS,1/23/2020,"[{},{},{},{}]",Khmer,25-34,< $25k,9/29/2020
+275,false,true,false,SMS,10/20/2020,[],Italian,45-54,< $25k,12/7/2020
+276,false,false,true,direct mail,3/20/2021,"[{},{},{},{}]",Dzongkha,25-34,$50k-$75k,3/18/2021
+277,false,false,true,SMS,10/24/2020,"[{},{}]",Aymara,65+,< $25k,1/15/2020
+278,true,true,true,SMS,4/6/2021,"[{},{},{},{}]",Greek,45-54,> $100k,10/12/2021
+279,false,false,false,email,12/13/2020,"[{},{},{},{},{}]",Lithuanian,25-34,$75k-$100k,5/9/2021
+280,false,false,true,email,9/21/2021,[{}],Bengali,55-64,$50k-$75k,1/2/2021
+281,true,true,false,direct mail,9/11/2021,"[{},{},{}]",Kashmiri,35-44,$75k-$100k,7/22/2020
+282,false,true,false,direct mail,5/1/2020,[],Catalan,45-54,> $100k,11/28/2020
+283,false,false,true,email,5/9/2020,"[{},{}]",Lao,35-44,$25k-$50k,11/23/2020
+284,false,true,false,SMS,7/16/2021,[{}],Yiddish,65+,$25k-$50k,6/6/2020
+285,false,false,true,SMS,9/3/2021,[],Latvian,55-64,$25k-$50k,1/20/2020
+286,true,false,false,email,9/3/2021,[{}],Albanian,65+,$75k-$100k,9/16/2020
+287,false,true,false,email,10/10/2020,[],New Zealand Sign Language,18-24,$50k-$75k,8/1/2021
+288,true,false,false,direct mail,8/25/2021,"[{},{},{}]",Hebrew,45-54,> $100k,2/8/2021
+289,false,false,true,direct mail,7/24/2021,"[{},{},{}]",Croatian,55-64,> $100k,2/27/2021
+290,true,true,false,direct mail,8/10/2020,"[{},{}]",Tetum,35-44,> $100k,3/26/2021
+291,false,true,false,email,11/16/2020,"[{},{},{}]",Hebrew,55-64,$75k-$100k,12/1/2021
+292,false,true,true,SMS,11/15/2020,"[{},{},{},{}]",Dzongkha,65+,> $100k,6/8/2021
+293,true,true,true,SMS,1/15/2021,"[{},{},{}]",Greek,35-44,$50k-$75k,12/17/2021
+294,false,false,false,email,8/31/2020,[],Papiamento,65+,$50k-$75k,4/13/2020
+295,false,true,false,direct mail,9/14/2021,"[{},{}]",Khmer,55-64,$25k-$50k,7/28/2020
+296,true,true,true,email,1/3/2021,[],Kyrgyz,35-44,< $25k,11/1/2021
+297,true,true,true,SMS,11/18/2021,"[{},{}]",Ndebele,65+,$50k-$75k,4/15/2021
+298,true,false,false,SMS,5/7/2021,"[{},{},{},{},{}]",Kazakh,35-44,$75k-$100k,4/26/2020
+299,true,true,false,email,8/13/2020,"[{},{},{},{},{}]",Romanian,18-24,$25k-$50k,11/11/2020
+300,false,false,false,SMS,9/17/2021,"[{},{},{},{},{}]",Portuguese,18-24,$75k-$100k,10/15/2021
+301,true,false,true,SMS,6/15/2021,"[{},{},{},{}]",Burmese,25-34,$75k-$100k,12/21/2021
+302,false,false,true,email,8/21/2020,"[{},{},{},{}]",Georgian,45-54,< $25k,4/19/2020
+303,false,false,true,email,9/13/2021,"[{},{},{}]",Northern Sotho,65+,$75k-$100k,3/24/2021
+304,false,false,false,direct mail,2/5/2021,"[{},{},{}]",Armenian,25-34,> $100k,3/11/2021
+305,true,false,true,direct mail,9/9/2020,[],Romanian,45-54,> $100k,10/28/2020
+306,false,false,true,email,9/2/2020,"[{},{},{},{},{}]",Fijian,45-54,< $25k,8/3/2020
+307,true,true,true,direct mail,7/1/2021,"[{},{},{},{},{}]",Yiddish,18-24,$75k-$100k,3/24/2020
+308,false,true,false,email,11/22/2021,"[{},{},{},{},{}]",Kyrgyz,25-34,$50k-$75k,3/13/2020
+309,false,false,false,SMS,7/29/2021,"[{},{},{}]",Thai,65+,$50k-$75k,3/20/2020
+310,false,false,false,email,8/25/2020,"[{},{},{},{}]",Belarusian,45-54,$25k-$50k,11/14/2020
+311,true,false,false,SMS,11/23/2021,[{}],Korean,35-44,$50k-$75k,7/8/2020
+312,false,true,true,direct mail,8/3/2021,"[{},{},{}]",Papiamento,25-34,> $100k,12/25/2021
+313,false,false,true,email,7/24/2021,"[{},{}]",Malagasy,55-64,$75k-$100k,4/22/2020
+314,false,false,false,SMS,10/9/2021,"[{},{},{},{}]",Māori,55-64,$50k-$75k,3/23/2020
+315,true,true,true,email,5/2/2021,"[{},{},{}]",Quechua,35-44,$50k-$75k,6/12/2020
+316,true,false,false,SMS,2/1/2020,[{}],Kannada,18-24,< $25k,12/5/2021
+317,true,false,false,direct mail,12/22/2020,[{}],Korean,55-64,$25k-$50k,8/1/2020
+318,true,true,true,SMS,5/4/2021,"[{},{}]",Zulu,55-64,$75k-$100k,7/22/2020
+319,true,true,true,SMS,3/1/2020,"[{},{},{},{}]",Bengali,35-44,< $25k,6/7/2021
+320,true,false,false,email,3/9/2021,"[{},{},{}]",Lao,55-64,$75k-$100k,7/19/2020
+321,true,true,true,SMS,5/16/2020,"[{},{},{}]",Bislama,55-64,> $100k,10/31/2021
+322,false,true,false,SMS,7/8/2020,[],West Frisian,35-44,$25k-$50k,10/7/2020
+323,true,false,true,direct mail,11/27/2021,[{}],Swedish,65+,> $100k,8/25/2020
+324,true,true,true,email,7/26/2021,[{}],French,45-54,$75k-$100k,12/19/2020
+325,true,false,true,email,12/11/2021,"[{},{},{}]",Pashto,25-34,> $100k,4/17/2020
+326,true,true,true,email,1/23/2020,"[{},{}]",Yiddish,55-64,$50k-$75k,2/14/2020
+327,true,false,false,SMS,6/14/2020,"[{},{}]",Kazakh,55-64,$75k-$100k,2/23/2020
+328,true,false,true,SMS,8/28/2021,[{}],Malagasy,25-34,$75k-$100k,1/3/2021
+329,false,true,true,SMS,11/14/2020,"[{},{},{},{},{}]",Estonian,25-34,> $100k,5/4/2021
+330,false,true,false,SMS,8/20/2021,"[{},{},{},{}]",Greek,65+,< $25k,12/29/2020
+331,false,false,true,email,7/17/2021,"[{},{},{},{},{}]",Dzongkha,25-34,< $25k,10/19/2020
+332,false,true,false,direct mail,11/8/2021,"[{},{},{},{},{}]",Albanian,45-54,< $25k,2/11/2021
+333,true,false,true,SMS,8/8/2021,[],Montenegrin,55-64,$50k-$75k,3/5/2021
+334,true,false,false,email,11/16/2020,"[{},{},{},{}]",Guaraní,18-24,$25k-$50k,5/31/2021
+335,true,false,true,email,9/22/2020,[],Afrikaans,18-24,> $100k,4/24/2021
+336,false,false,false,direct mail,10/14/2020,"[{},{}]",Dutch,25-34,$50k-$75k,6/26/2021
+337,false,true,false,SMS,6/1/2021,[{}],Malayalam,25-34,$25k-$50k,10/17/2020
+338,true,false,true,SMS,9/30/2021,"[{},{},{}]",Punjabi,35-44,> $100k,5/24/2020
+339,true,false,false,SMS,9/14/2020,"[{},{},{},{},{}]",Croatian,45-54,$75k-$100k,12/8/2021
+340,true,false,true,direct mail,1/29/2021,"[{},{},{},{},{}]",New Zealand Sign Language,25-34,$75k-$100k,5/5/2020
+341,false,false,true,SMS,10/5/2020,"[{},{},{},{}]",Georgian,25-34,> $100k,11/10/2021
+342,false,true,true,email,9/20/2021,"[{},{},{},{}]",Marathi,25-34,$25k-$50k,12/17/2020
+343,true,false,true,SMS,12/4/2021,[{}],Punjabi,65+,$75k-$100k,11/28/2020
+344,false,false,true,SMS,4/18/2020,[{}],Dari,25-34,$75k-$100k,8/23/2020
+345,false,false,false,SMS,9/21/2020,[{}],Georgian,18-24,$75k-$100k,12/4/2021
+346,false,true,false,direct mail,7/28/2020,"[{},{}]",Bulgarian,65+,$25k-$50k,6/19/2020
+347,false,true,true,SMS,1/9/2020,[],Bengali,18-24,$25k-$50k,11/5/2021
+348,true,true,false,email,3/16/2021,"[{},{},{},{}]",Finnish,55-64,$25k-$50k,2/22/2021
+349,true,false,false,SMS,4/27/2020,"[{},{}]",Gujarati,25-34,> $100k,5/16/2021
+350,true,false,true,email,8/19/2021,[],Catalan,55-64,$25k-$50k,8/23/2021
+351,true,false,true,direct mail,12/8/2020,[{}],Nepali,18-24,< $25k,9/30/2020
+352,false,true,false,SMS,5/13/2020,"[{},{},{},{},{}]",Tetum,35-44,$50k-$75k,1/23/2020
+353,false,false,true,email,2/25/2021,"[{},{}]",Dhivehi,18-24,< $25k,3/25/2020
+354,true,true,false,direct mail,9/21/2021,"[{},{}]",Sotho,55-64,$50k-$75k,3/8/2020
+355,true,true,false,SMS,3/29/2020,"[{},{},{},{}]",Bosnian,55-64,$25k-$50k,10/4/2020
+356,false,true,false,email,7/6/2020,"[{},{},{}]",Amharic,25-34,< $25k,4/27/2021
+357,true,false,true,SMS,6/20/2020,"[{},{},{},{},{}]",Polish,45-54,$50k-$75k,3/27/2020
+358,false,true,false,email,6/25/2020,"[{},{},{},{}]",Italian,65+,$25k-$50k,3/11/2021
+359,false,true,true,SMS,6/19/2020,"[{},{},{}]",Kannada,25-34,< $25k,8/5/2021
+360,true,true,true,direct mail,6/29/2021,"[{},{},{}]",West Frisian,45-54,$75k-$100k,12/25/2020
+361,true,true,true,email,3/21/2021,[],Danish,55-64,> $100k,10/9/2020
+362,true,false,true,email,12/23/2021,"[{},{},{}]",Afrikaans,45-54,$75k-$100k,3/23/2020
+363,false,true,false,direct mail,12/24/2020,"[{},{},{},{}]",Malagasy,65+,> $100k,1/20/2020
+364,false,true,false,email,2/25/2020,"[{},{},{},{}]",Thai,25-34,$25k-$50k,6/11/2020
+365,false,false,true,SMS,6/17/2020,"[{},{},{}]",Yiddish,35-44,$25k-$50k,4/3/2021
+366,false,true,false,direct mail,10/3/2020,"[{},{},{}]",Amharic,35-44,$75k-$100k,7/6/2020
+367,false,false,false,email,3/23/2020,[{}],Hindi,25-34,$50k-$75k,4/22/2021
+368,true,true,true,direct mail,6/13/2021,"[{},{},{},{},{}]",Filipino,35-44,< $25k,4/18/2021
+369,false,true,true,SMS,6/8/2021,"[{},{},{},{}]",Kyrgyz,65+,> $100k,9/12/2020
+370,false,true,true,SMS,12/16/2021,"[{},{},{},{},{}]",Gujarati,65+,< $25k,9/12/2020
+371,false,false,true,email,4/1/2020,"[{},{}]",Assamese,18-24,< $25k,12/21/2020
+372,false,false,false,direct mail,2/3/2021,"[{},{},{}]",Tok Pisin,25-34,$25k-$50k,1/14/2021
+373,false,true,true,SMS,9/8/2020,"[{},{},{},{}]",Portuguese,45-54,> $100k,5/14/2020
+374,true,true,false,SMS,7/26/2020,[{}],Moldovan,35-44,$50k-$75k,5/10/2021
+375,true,true,true,email,6/2/2020,[],Punjabi,18-24,> $100k,8/19/2021
+376,false,true,true,direct mail,2/4/2021,[],Quechua,45-54,< $25k,3/2/2021
+377,true,true,true,email,2/2/2020,"[{},{}]",Romanian,18-24,< $25k,5/21/2021
+378,false,true,false,direct mail,5/9/2020,"[{},{},{}]",Swedish,55-64,< $25k,3/5/2020
+379,false,true,false,SMS,12/17/2020,"[{},{},{}]",Lithuanian,35-44,$75k-$100k,8/1/2020
+380,false,false,false,SMS,4/30/2021,[],Papiamento,35-44,> $100k,6/6/2021
+381,false,false,false,direct mail,1/17/2020,"[{},{},{},{}]",Quechua,45-54,$25k-$50k,2/4/2020
+382,true,true,true,email,8/1/2021,[{}],Persian,45-54,> $100k,4/11/2020
+383,false,false,false,direct mail,10/8/2021,"[{},{},{},{}]",Czech,65+,> $100k,1/5/2020
+384,true,true,false,SMS,1/22/2021,"[{},{},{}]",Latvian,65+,$75k-$100k,10/22/2020
+385,false,false,false,direct mail,9/20/2020,"[{},{},{},{},{}]",Telugu,25-34,< $25k,3/29/2021
+386,false,true,false,SMS,12/5/2020,[],Swati,45-54,< $25k,9/20/2021
+387,false,true,true,direct mail,4/3/2021,"[{},{}]",Persian,55-64,< $25k,4/2/2021
+388,false,true,false,direct mail,7/25/2020,"[{},{},{},{},{}]",Arabic,45-54,$75k-$100k,12/6/2021
+389,true,true,false,email,4/10/2020,[{}],West Frisian,55-64,< $25k,12/21/2021
+390,false,true,true,SMS,4/10/2020,[{}],Tamil,25-34,$50k-$75k,9/28/2021
+391,true,false,false,direct mail,7/26/2021,"[{},{}]",Malagasy,55-64,$75k-$100k,4/29/2021
+392,false,true,false,direct mail,2/28/2020,"[{},{},{},{},{}]",Dhivehi,45-54,$50k-$75k,8/24/2021
+393,true,true,true,email,7/21/2021,[{}],West Frisian,45-54,> $100k,6/7/2020
+394,true,false,false,SMS,6/19/2021,"[{},{},{}]",Croatian,35-44,< $25k,9/10/2020
+395,true,false,true,email,5/13/2021,"[{},{},{}]",Tok Pisin,25-34,$75k-$100k,11/17/2021
+396,true,false,false,email,7/25/2020,"[{},{},{}]",Dari,25-34,$50k-$75k,11/8/2020
+397,true,false,false,email,7/6/2020,"[{},{},{}]",Dzongkha,55-64,$75k-$100k,8/4/2020
+398,false,false,true,direct mail,1/7/2021,[],Malayalam,55-64,$75k-$100k,10/2/2021
+399,true,true,true,direct mail,1/25/2020,"[{},{},{},{},{}]",Aymara,25-34,< $25k,8/9/2021
+400,true,true,true,email,9/20/2021,"[{},{},{},{},{}]",Hebrew,35-44,$25k-$50k,11/25/2021
+401,true,false,true,direct mail,3/18/2021,"[{},{},{},{}]",Burmese,18-24,$25k-$50k,5/8/2020
+402,false,false,false,email,5/14/2020,[{}],Quechua,45-54,< $25k,7/28/2020
+403,false,false,true,direct mail,10/29/2021,[{}],Pashto,35-44,$25k-$50k,3/9/2021
+404,false,false,false,direct mail,7/5/2021,"[{},{}]",Azeri,65+,$25k-$50k,5/23/2020
+405,false,true,false,email,7/12/2021,"[{},{}]",Spanish,25-34,$75k-$100k,2/23/2021
+406,true,false,true,direct mail,5/11/2021,"[{},{},{}]",Swati,35-44,$75k-$100k,9/26/2020
+407,false,true,true,SMS,9/13/2021,"[{},{}]",Malagasy,45-54,> $100k,4/24/2021
+408,true,false,false,SMS,11/6/2021,"[{},{},{}]",Korean,35-44,$25k-$50k,3/13/2020
+409,false,false,false,email,4/30/2021,[{}],Bengali,18-24,$50k-$75k,3/3/2020
+410,true,true,false,direct mail,10/13/2020,"[{},{},{},{},{}]",Armenian,35-44,$75k-$100k,8/26/2020
+411,true,false,false,email,1/14/2021,"[{},{}]",Macedonian,25-34,$25k-$50k,12/18/2020
+412,true,true,false,email,10/21/2020,"[{},{},{},{}]",Burmese,55-64,$25k-$50k,8/25/2021
+413,true,true,false,SMS,7/26/2021,"[{},{},{},{}]",New Zealand Sign Language,55-64,$75k-$100k,12/25/2020
+414,false,false,false,direct mail,12/21/2021,"[{},{},{},{}]",Polish,65+,$75k-$100k,8/16/2021
+415,false,true,false,SMS,9/25/2021,"[{},{},{},{},{}]",Tok Pisin,55-64,$50k-$75k,10/16/2021
+416,true,true,true,email,10/7/2021,[{}],Swahili,45-54,$75k-$100k,1/14/2021
+417,false,true,true,direct mail,5/15/2020,"[{},{},{}]",Amharic,65+,$75k-$100k,10/27/2021
+418,true,false,true,direct mail,12/12/2021,"[{},{}]",Tamil,25-34,< $25k,8/24/2020
+419,true,true,false,direct mail,3/14/2021,"[{},{},{},{},{}]",Tajik,25-34,< $25k,10/6/2020
+420,false,true,false,direct mail,5/13/2021,"[{},{},{},{}]",Kyrgyz,18-24,$75k-$100k,5/11/2020
+421,false,false,false,direct mail,3/12/2021,[{}],Bosnian,55-64,$75k-$100k,8/13/2020
+422,false,true,true,email,12/16/2021,[{}],Fijian,65+,> $100k,4/16/2020
+423,false,true,false,SMS,7/7/2020,[],Danish,35-44,$50k-$75k,12/14/2021
+424,true,false,true,email,8/3/2020,[],Norwegian,25-34,$50k-$75k,9/20/2021
+425,true,true,false,SMS,7/11/2020,"[{},{},{},{}]",Moldovan,65+,$75k-$100k,2/1/2020
+426,true,false,false,email,11/22/2021,"[{},{}]",Irish Gaelic,18-24,> $100k,4/4/2020
+427,true,false,false,email,3/26/2020,"[{},{}]",Moldovan,65+,$50k-$75k,12/8/2021
+428,false,false,true,direct mail,11/22/2021,"[{},{},{}]",Danish,35-44,$25k-$50k,3/20/2020
+429,false,true,false,SMS,4/30/2021,[],Burmese,55-64,$75k-$100k,1/13/2020
+430,true,true,true,direct mail,8/16/2021,"[{},{},{},{},{}]",Maltese,65+,> $100k,2/8/2021
+431,false,false,true,email,7/27/2021,[{}],Tsonga,65+,$75k-$100k,8/21/2021
+432,false,false,true,SMS,3/19/2020,[{}],Kurdish,55-64,< $25k,10/9/2020
+433,false,false,true,SMS,10/13/2020,"[{},{}]",English,55-64,< $25k,3/31/2020
+434,false,false,true,direct mail,2/3/2020,[{}],Pashto,65+,< $25k,3/21/2020
+435,true,true,true,SMS,7/11/2020,"[{},{}]",Irish Gaelic,55-64,> $100k,6/28/2020
+436,false,false,false,SMS,7/12/2020,[{}],Amharic,25-34,$25k-$50k,8/2/2021
+437,true,true,false,SMS,5/28/2021,"[{},{},{},{},{}]",Kurdish,45-54,$50k-$75k,4/30/2021
+438,true,true,true,email,9/26/2020,"[{},{},{},{},{}]",Georgian,18-24,$50k-$75k,10/25/2021
+439,false,true,true,email,8/10/2021,[],Haitian Creole,65+,< $25k,10/13/2021
+440,true,false,true,email,5/3/2021,"[{},{},{},{}]",Azeri,35-44,> $100k,1/8/2021
+441,true,true,false,email,3/25/2021,"[{},{},{},{}]",Gujarati,65+,$25k-$50k,2/26/2020
+442,true,true,false,SMS,12/26/2020,"[{},{},{},{}]",Quechua,65+,> $100k,12/21/2021
+443,false,true,true,email,12/9/2021,[{}],Bengali,45-54,< $25k,8/19/2021
+444,false,true,false,SMS,1/12/2020,"[{},{},{},{}]",Hiri Motu,55-64,> $100k,6/20/2021
+445,true,true,true,direct mail,1/17/2020,"[{},{}]",Guaraní,18-24,$75k-$100k,7/21/2021
+446,true,true,false,SMS,10/24/2021,"[{},{},{},{},{}]",New Zealand Sign Language,18-24,$25k-$50k,5/12/2020
+447,true,true,false,direct mail,2/24/2020,"[{},{}]",Irish Gaelic,35-44,$75k-$100k,10/30/2020
+448,true,true,false,direct mail,12/23/2021,"[{},{},{},{}]",Tswana,55-64,$25k-$50k,10/7/2020
+449,true,true,false,direct mail,6/30/2021,"[{},{},{},{}]",Chinese,65+,$75k-$100k,2/6/2020
+450,false,true,true,direct mail,7/21/2021,"[{},{},{},{}]",Georgian,65+,$50k-$75k,12/17/2021
+451,true,true,true,direct mail,3/5/2020,[{}],Luxembourgish,35-44,< $25k,2/4/2020
+452,false,true,true,email,2/27/2020,"[{},{},{},{}]",Burmese,45-54,< $25k,12/27/2020
+453,false,true,true,direct mail,2/1/2020,"[{},{},{},{}]",Japanese,55-64,< $25k,4/14/2020
+454,false,false,true,email,12/9/2021,"[{},{}]",Dutch,45-54,$25k-$50k,5/30/2020
+455,true,false,false,SMS,1/24/2020,[],Yiddish,55-64,$75k-$100k,3/10/2021
+456,true,true,true,SMS,10/15/2020,[],Bulgarian,35-44,$50k-$75k,2/15/2020
+457,false,false,false,email,11/2/2021,"[{},{},{},{},{}]",Mongolian,65+,< $25k,1/25/2020
+458,true,false,false,SMS,7/10/2021,"[{},{}]",Gujarati,45-54,$25k-$50k,12/10/2020
+459,true,false,true,SMS,8/7/2021,"[{},{},{}]",Sotho,45-54,> $100k,8/4/2020
+460,true,true,false,email,1/28/2021,"[{},{},{},{},{}]",Marathi,25-34,> $100k,1/4/2020
+461,true,false,false,email,5/14/2021,"[{},{}]",Yiddish,65+,$25k-$50k,8/22/2021
+462,true,false,true,SMS,8/9/2021,"[{},{},{}]",New Zealand Sign Language,35-44,< $25k,6/21/2020
+463,true,false,true,SMS,11/10/2021,[{}],Gujarati,55-64,< $25k,9/12/2020
+464,false,true,true,email,5/7/2021,[{}],Hindi,55-64,$50k-$75k,6/17/2021
+465,true,false,true,email,10/19/2020,[],Belarusian,65+,> $100k,8/20/2021
+466,false,true,false,email,7/2/2021,[{}],Tajik,65+,$25k-$50k,3/14/2020
+467,false,false,false,direct mail,2/22/2020,[],Lithuanian,18-24,$75k-$100k,10/16/2020
+468,false,true,false,email,1/27/2021,"[{},{}]",Quechua,18-24,$75k-$100k,2/3/2020
+469,false,true,true,SMS,3/30/2021,"[{},{},{}]",Gujarati,55-64,$75k-$100k,7/28/2021
+470,true,true,true,direct mail,10/11/2020,"[{},{},{},{}]",Hungarian,25-34,> $100k,6/13/2020
+471,true,false,true,direct mail,3/12/2020,"[{},{},{}]",French,65+,$50k-$75k,6/3/2020
+472,false,false,true,direct mail,7/7/2021,[{}],Quechua,65+,> $100k,9/2/2021
+473,true,false,false,direct mail,6/23/2020,[{}],Filipino,45-54,$50k-$75k,9/23/2021
+474,true,false,true,direct mail,1/18/2020,[{}],Norwegian,45-54,$50k-$75k,6/3/2020
+475,true,true,true,email,5/20/2020,"[{},{},{},{},{}]",Dzongkha,25-34,$25k-$50k,11/28/2020
+476,true,true,true,SMS,5/1/2020,[],Zulu,18-24,> $100k,10/4/2020
+477,true,false,false,direct mail,4/27/2021,"[{},{},{},{},{}]",Sotho,18-24,$50k-$75k,3/29/2020
+478,true,true,false,direct mail,5/28/2020,[],New Zealand Sign Language,18-24,$75k-$100k,4/17/2021
+479,false,true,false,SMS,11/10/2020,"[{},{},{}]",Kurdish,25-34,> $100k,10/1/2020
+480,false,true,true,direct mail,12/19/2021,"[{},{},{}]",Swahili,65+,$50k-$75k,11/18/2021
+481,true,false,true,direct mail,12/5/2021,[],Aymara,18-24,$25k-$50k,1/24/2020
+482,false,false,false,direct mail,3/6/2020,"[{},{},{},{}]",Dutch,55-64,$25k-$50k,9/9/2021
+483,true,false,true,SMS,1/27/2020,"[{},{}]",Ndebele,25-34,$75k-$100k,1/24/2021
+484,false,false,false,SMS,12/8/2020,"[{},{},{},{}]",Haitian Creole,45-54,< $25k,10/24/2020
+485,false,true,true,SMS,11/15/2021,"[{},{},{},{},{}]",Korean,25-34,$25k-$50k,6/16/2021
+486,false,true,false,direct mail,2/1/2021,[{}],Marathi,65+,$50k-$75k,4/3/2021
+487,false,true,true,SMS,1/10/2021,"[{},{},{},{},{}]",Assamese,35-44,$75k-$100k,11/13/2021
+488,false,true,false,email,8/19/2020,[{}],Finnish,65+,$25k-$50k,12/10/2021
+489,false,false,true,direct mail,1/21/2020,"[{},{},{}]",Yiddish,65+,$50k-$75k,10/15/2021
+490,true,false,true,email,3/29/2021,"[{},{},{}]",Icelandic,55-64,$75k-$100k,9/14/2020
+491,true,true,false,direct mail,12/6/2021,[{}],Tsonga,35-44,< $25k,7/22/2020
+492,true,true,true,direct mail,1/23/2021,"[{},{},{},{},{}]",Ndebele,55-64,$25k-$50k,12/7/2021
+493,true,false,true,SMS,6/19/2020,"[{},{}]",French,18-24,$75k-$100k,9/13/2020
+494,true,true,false,direct mail,2/6/2021,"[{},{},{},{}]",Pashto,55-64,$50k-$75k,6/26/2021
+495,true,false,false,direct mail,4/20/2021,[{}],Italian,18-24,> $100k,9/21/2020
+496,true,true,false,email,5/23/2020,"[{},{},{},{},{}]",Bengali,55-64,> $100k,2/26/2021
+497,true,false,false,SMS,12/5/2020,"[{},{},{},{}]",Georgian,55-64,> $100k,1/9/2020
+498,false,false,true,email,12/11/2021,[{}],Greek,55-64,$25k-$50k,8/5/2021
+499,false,true,false,SMS,3/19/2021,"[{},{},{}]",Malay,35-44,$50k-$75k,6/12/2020
+500,true,true,true,direct mail,4/26/2021,"[{},{},{},{}]",Finnish,35-44,$25k-$50k,1/9/2021
+501,true,false,true,direct mail,3/21/2021,"[{},{},{},{},{}]",Norwegian,65+,$50k-$75k,9/6/2021
+502,true,false,false,SMS,10/15/2020,"[{},{},{}]",Tetum,45-54,$25k-$50k,3/10/2021
+503,false,true,true,direct mail,9/7/2020,"[{},{},{},{},{}]",Romanian,25-34,> $100k,8/9/2020
+504,true,true,true,email,3/1/2020,"[{},{},{},{},{}]",Bulgarian,65+,> $100k,5/19/2021
+505,true,false,false,SMS,11/26/2020,"[{},{}]",Yiddish,18-24,$25k-$50k,9/9/2020
+506,true,false,true,email,5/30/2020,"[{},{},{},{}]",Arabic,65+,$25k-$50k,2/17/2020
+507,true,false,false,direct mail,1/27/2020,[],French,65+,$75k-$100k,8/14/2021
+508,true,true,true,email,8/10/2021,[],Icelandic,35-44,< $25k,2/9/2021
+509,true,true,false,email,3/6/2020,"[{},{}]",Guaraní,65+,$75k-$100k,10/5/2020
+510,true,true,true,email,5/8/2020,[],Moldovan,18-24,< $25k,12/16/2020
+511,false,true,true,direct mail,5/21/2020,[],Sotho,35-44,$25k-$50k,9/30/2020
+512,false,false,true,direct mail,11/13/2020,"[{},{},{}]",Spanish,35-44,$75k-$100k,12/28/2020
+513,true,true,true,email,10/2/2020,[{}],Kashmiri,35-44,$25k-$50k,8/27/2021
+514,false,false,false,direct mail,12/9/2020,[{}],Bengali,45-54,$50k-$75k,11/28/2020
+515,true,false,true,direct mail,6/24/2021,[],Swahili,55-64,> $100k,1/9/2021
+516,false,false,true,direct mail,6/17/2021,"[{},{}]",Swati,65+,> $100k,3/10/2020
+517,true,true,true,email,7/3/2020,"[{},{}]",Spanish,55-64,< $25k,11/2/2020
+518,true,false,false,SMS,6/8/2020,"[{},{},{}]",Latvian,55-64,< $25k,11/24/2021
+519,false,true,false,email,2/1/2020,"[{},{},{}]",Northern Sotho,35-44,> $100k,9/14/2021
+520,true,true,false,direct mail,12/26/2021,"[{},{},{}]",Korean,65+,$75k-$100k,4/12/2020
+521,true,false,false,SMS,11/1/2020,[{}],Greek,35-44,$25k-$50k,2/8/2021
+522,true,true,false,email,1/19/2021,"[{},{}]",Bosnian,65+,$75k-$100k,3/9/2020
+523,true,true,false,email,2/21/2021,[],Hiri Motu,65+,$50k-$75k,7/17/2020
+524,true,true,false,SMS,11/16/2020,"[{},{},{},{}]",Oriya,35-44,> $100k,1/22/2021
+525,false,true,true,email,8/23/2021,"[{},{},{},{}]",Khmer,18-24,> $100k,9/15/2020
+526,true,true,true,email,12/31/2020,"[{},{}]",Sotho,65+,> $100k,9/30/2021
+527,false,true,true,email,8/9/2020,"[{},{},{}]",West Frisian,55-64,> $100k,1/27/2020
+528,true,false,false,SMS,12/21/2020,"[{},{},{},{}]",Aymara,55-64,$75k-$100k,9/15/2021
+529,true,false,true,email,1/9/2020,[{}],Assamese,45-54,$25k-$50k,4/24/2020
+530,true,true,true,SMS,6/20/2020,"[{},{}]",Tamil,65+,$50k-$75k,9/26/2021
+531,true,true,false,direct mail,8/10/2021,[],Telugu,65+,$50k-$75k,3/28/2020
+532,false,true,false,email,4/6/2020,[{}],Lao,45-54,$25k-$50k,10/30/2021
+533,true,false,false,email,1/24/2020,"[{},{}]",Arabic,65+,$50k-$75k,5/26/2021
+534,false,true,true,direct mail,4/7/2020,"[{},{}]",Norwegian,45-54,> $100k,1/12/2020
+535,true,true,true,SMS,3/30/2021,"[{},{},{},{}]",Tswana,25-34,$25k-$50k,11/6/2021
+536,true,false,false,email,1/25/2021,[],Luxembourgish,45-54,< $25k,10/22/2021
+537,true,false,false,SMS,12/10/2021,"[{},{},{},{},{}]",Spanish,45-54,$25k-$50k,10/28/2020
+538,true,false,true,SMS,1/25/2020,"[{},{},{},{},{}]",Macedonian,55-64,$50k-$75k,11/14/2021
+539,false,false,true,SMS,1/19/2020,"[{},{}]",Azeri,65+,$50k-$75k,10/18/2020
+540,false,true,true,SMS,11/25/2020,[{}],Italian,25-34,$50k-$75k,4/30/2021
+541,true,false,true,email,8/28/2020,"[{},{},{},{},{}]",Macedonian,65+,< $25k,2/20/2021
+542,false,false,false,SMS,11/10/2021,"[{},{},{},{},{}]",Hebrew,35-44,$75k-$100k,6/18/2020
+543,true,false,false,SMS,7/2/2021,"[{},{},{},{},{}]",Kashmiri,55-64,> $100k,8/7/2020
+544,false,true,true,direct mail,8/27/2020,"[{},{},{},{}]",Korean,45-54,$25k-$50k,8/11/2021
+545,false,false,true,email,1/19/2020,[{}],Malayalam,45-54,$25k-$50k,2/20/2020
+546,true,true,false,direct mail,11/18/2021,"[{},{}]",Montenegrin,35-44,< $25k,7/27/2021
+547,true,true,false,direct mail,7/27/2021,"[{},{},{},{},{}]",New Zealand Sign Language,45-54,$75k-$100k,1/31/2020
+548,true,false,true,email,12/17/2021,[],Kurdish,55-64,> $100k,11/28/2020
+549,false,true,false,direct mail,7/27/2020,"[{},{},{}]",Dzongkha,55-64,$75k-$100k,2/25/2020
+550,true,false,false,SMS,5/22/2021,"[{},{},{},{},{}]",Bulgarian,45-54,> $100k,1/7/2020
+551,false,true,false,email,4/5/2020,[],English,45-54,< $25k,2/28/2021
+552,false,false,true,email,5/23/2021,[{}],Lao,18-24,$50k-$75k,1/24/2021
+553,false,true,false,email,12/4/2020,"[{},{},{},{}]",New Zealand Sign Language,35-44,$50k-$75k,10/30/2021
+554,false,true,false,SMS,1/3/2020,"[{},{},{}]",Yiddish,35-44,$75k-$100k,12/31/2020
+555,true,true,false,direct mail,3/10/2020,"[{},{},{},{},{}]",Albanian,55-64,$50k-$75k,2/23/2020
+556,true,false,true,SMS,1/1/2020,"[{},{},{}]",Dhivehi,65+,> $100k,9/11/2021
+557,true,false,true,email,12/12/2020,[{}],Czech,18-24,$25k-$50k,11/4/2020
+558,false,false,false,SMS,7/3/2021,"[{},{}]",Danish,35-44,> $100k,7/13/2021
+559,true,false,true,email,4/19/2020,[],Azeri,18-24,$50k-$75k,4/24/2021
+560,false,true,true,SMS,8/14/2021,"[{},{},{},{}]",Finnish,25-34,$75k-$100k,8/15/2020
+561,false,true,false,email,4/20/2021,"[{},{},{}]",Kyrgyz,35-44,$50k-$75k,1/10/2021
+562,true,false,true,direct mail,7/15/2020,"[{},{},{}]",Aymara,35-44,> $100k,9/24/2020
+563,true,false,true,SMS,11/7/2021,[],Fijian,65+,$75k-$100k,6/12/2021
+564,false,true,true,email,1/16/2020,[],Malay,35-44,$25k-$50k,6/27/2021
+565,true,false,true,email,6/25/2020,"[{},{},{}]",Assamese,18-24,$75k-$100k,9/11/2021
+566,true,true,false,email,11/10/2020,"[{},{},{},{},{}]",Gagauz,45-54,< $25k,8/11/2021
+567,true,false,true,direct mail,3/12/2021,[{}],Khmer,45-54,$25k-$50k,9/30/2020
+568,false,false,true,email,1/10/2021,"[{},{},{},{}]",Hiri Motu,35-44,$75k-$100k,2/11/2021
+569,false,true,true,direct mail,3/3/2021,"[{},{},{}]",Dhivehi,18-24,$25k-$50k,10/30/2020
+570,true,false,true,direct mail,4/17/2021,"[{},{},{},{}]",Irish Gaelic,55-64,> $100k,10/20/2020
+571,false,true,false,email,9/27/2020,"[{},{},{},{},{}]",Catalan,25-34,$25k-$50k,8/16/2021
+572,true,false,false,direct mail,3/12/2020,"[{},{},{}]",German,45-54,$75k-$100k,3/14/2021
+573,false,true,false,email,11/12/2021,[],Dari,45-54,< $25k,11/8/2021
+574,true,false,true,SMS,2/28/2020,"[{},{}]",Haitian Creole,45-54,> $100k,8/4/2021
+575,true,true,true,SMS,9/17/2021,"[{},{},{},{},{}]",Filipino,35-44,> $100k,6/20/2020
+576,true,true,false,SMS,7/4/2021,"[{},{}]",Pashto,55-64,$25k-$50k,10/21/2020
+577,false,true,true,email,3/20/2020,"[{},{},{},{},{}]",Tajik,35-44,> $100k,8/5/2020
+578,true,true,true,SMS,3/28/2021,[],Norwegian,55-64,$75k-$100k,1/24/2021
+579,true,true,false,email,4/17/2021,"[{},{},{},{},{}]",Italian,55-64,$25k-$50k,11/16/2020
+580,false,true,false,direct mail,11/10/2021,[{}],Oriya,55-64,$50k-$75k,1/20/2021
+581,true,false,false,email,7/5/2020,[],Latvian,55-64,$50k-$75k,5/5/2021
+582,false,true,false,direct mail,8/29/2020,"[{},{},{},{},{}]",Hiri Motu,55-64,$25k-$50k,7/14/2020
+583,false,true,false,SMS,7/21/2020,"[{},{},{},{},{}]",Dutch,35-44,$50k-$75k,2/7/2021
+584,false,true,false,email,12/21/2020,[],Japanese,65+,< $25k,9/10/2020
+585,true,false,false,SMS,5/11/2020,[],Kannada,65+,$25k-$50k,12/26/2020
+586,true,true,true,email,8/20/2021,"[{},{}]",Danish,25-34,$25k-$50k,11/27/2021
+587,false,true,true,direct mail,11/8/2021,"[{},{},{}]",Quechua,45-54,$25k-$50k,2/18/2021
+588,false,false,true,email,5/27/2020,"[{},{},{},{}]",Lithuanian,25-34,> $100k,7/9/2021
+589,true,true,false,direct mail,8/4/2021,[],Persian,55-64,$25k-$50k,12/13/2021
+590,true,false,false,email,8/18/2020,"[{},{}]",Azeri,65+,< $25k,5/3/2020
+591,true,true,true,email,8/2/2020,"[{},{},{},{}]",Pashto,25-34,$25k-$50k,12/9/2020
+592,true,false,true,SMS,10/8/2021,"[{},{}]",Bengali,25-34,$75k-$100k,9/28/2020
+593,false,true,false,email,11/22/2021,[{}],Oriya,45-54,> $100k,6/9/2021
+594,true,false,false,direct mail,3/19/2021,"[{},{}]",Albanian,45-54,< $25k,12/23/2020
+595,false,false,false,direct mail,7/13/2020,"[{},{},{},{},{}]",Tsonga,18-24,$25k-$50k,1/24/2020
+596,true,false,true,email,4/11/2020,"[{},{},{},{},{}]",Burmese,65+,> $100k,11/30/2021
+597,false,true,false,SMS,9/20/2021,[],Korean,35-44,< $25k,2/16/2021
+598,false,false,true,email,6/5/2020,[],Norwegian,55-64,$50k-$75k,9/23/2021
+599,true,true,false,SMS,3/18/2020,[{}],Portuguese,45-54,< $25k,7/29/2021
+600,true,false,false,SMS,1/2/2020,"[{},{},{},{},{}]",English,65+,$75k-$100k,11/17/2020
+601,false,false,false,direct mail,6/24/2021,[],Kurdish,65+,$50k-$75k,12/27/2020
+602,true,false,true,SMS,3/29/2020,"[{},{},{},{},{}]",Norwegian,18-24,$50k-$75k,2/6/2021
+603,true,true,true,SMS,7/17/2020,[{}],English,55-64,> $100k,3/17/2020
+604,false,false,true,SMS,10/1/2020,[{}],Lao,18-24,$75k-$100k,7/15/2020
+605,true,true,true,email,11/4/2021,[],Northern Sotho,18-24,> $100k,11/3/2020
+606,true,false,true,SMS,7/29/2021,[],Tsonga,45-54,< $25k,1/25/2021
+607,false,true,true,email,5/6/2021,[],Azeri,18-24,$75k-$100k,5/18/2020
+608,true,true,true,direct mail,10/28/2020,"[{},{}]",Polish,35-44,$75k-$100k,7/9/2021
+609,false,false,false,email,5/10/2020,"[{},{},{},{},{}]",Thai,55-64,$50k-$75k,10/6/2021
+610,true,false,false,email,1/7/2021,[],Croatian,45-54,$50k-$75k,11/21/2021
+611,false,false,true,direct mail,7/7/2021,"[{},{}]",Hindi,55-64,< $25k,3/20/2021
+612,true,true,false,SMS,2/19/2020,[],West Frisian,55-64,> $100k,12/21/2021
+613,true,false,true,direct mail,6/16/2021,[{}],Georgian,25-34,$50k-$75k,11/9/2021
+614,true,true,true,direct mail,5/5/2021,"[{},{},{},{}]",Assamese,65+,$75k-$100k,4/17/2021
+615,true,false,true,direct mail,12/21/2020,"[{},{},{}]",Punjabi,55-64,$25k-$50k,8/23/2020
+616,false,true,false,email,8/26/2020,"[{},{},{},{},{}]",Danish,25-34,< $25k,12/20/2021
+617,true,false,false,email,2/1/2021,"[{},{}]",Amharic,35-44,< $25k,5/7/2021
+618,true,true,true,email,10/23/2021,"[{},{},{},{}]",Kannada,65+,< $25k,10/6/2021
+619,true,false,true,direct mail,9/29/2020,[{}],Tetum,55-64,$50k-$75k,8/8/2020
+620,false,false,true,email,10/6/2020,"[{},{},{},{}]",Mongolian,25-34,> $100k,12/3/2021
+621,false,true,true,SMS,11/29/2020,"[{},{},{},{}]",Tswana,18-24,< $25k,2/13/2020
+622,false,false,true,direct mail,5/19/2020,"[{},{},{},{}]",Catalan,35-44,$50k-$75k,1/5/2020
+623,false,true,true,email,9/6/2021,"[{},{}]",Finnish,65+,$25k-$50k,2/20/2021
+624,true,true,false,direct mail,10/4/2020,[{}],Armenian,25-34,< $25k,12/20/2020
+625,false,false,false,direct mail,5/31/2020,[{}],Hebrew,25-34,$75k-$100k,10/1/2020
+626,false,false,false,direct mail,4/6/2020,"[{},{},{},{},{}]",Lithuanian,45-54,$25k-$50k,9/6/2020
+627,true,false,true,SMS,12/17/2021,"[{},{},{}]",Guaraní,35-44,$75k-$100k,2/1/2021
+628,false,true,false,direct mail,3/5/2020,"[{},{},{},{},{}]",Fijian,35-44,> $100k,8/11/2020
+629,false,false,true,direct mail,12/7/2020,[],Tajik,45-54,> $100k,8/4/2021
+630,false,false,true,direct mail,5/6/2021,"[{},{},{},{},{}]",Tok Pisin,45-54,$25k-$50k,12/24/2020
+631,false,true,false,direct mail,12/18/2020,[],Czech,45-54,> $100k,12/14/2021
+632,false,false,true,SMS,5/11/2021,"[{},{},{},{},{}]",Tajik,55-64,$25k-$50k,5/29/2021
+633,false,false,false,direct mail,5/26/2020,"[{},{}]",Indonesian,55-64,< $25k,3/18/2021
+634,true,false,false,direct mail,10/27/2020,"[{},{},{},{},{}]",Tajik,65+,> $100k,8/9/2021
+635,false,false,false,email,3/30/2021,[{}],Lithuanian,55-64,< $25k,3/27/2021
+636,false,true,true,email,3/15/2021,"[{},{}]",Northern Sotho,45-54,> $100k,5/16/2021
+637,false,false,false,direct mail,7/11/2021,"[{},{},{}]",Korean,25-34,< $25k,8/1/2020
+638,false,true,true,email,6/18/2021,"[{},{},{},{},{}]",Mongolian,18-24,$50k-$75k,4/25/2020
+639,false,true,true,SMS,7/9/2020,[],Finnish,25-34,> $100k,6/4/2021
+640,false,true,true,SMS,8/27/2020,"[{},{},{},{}]",Telugu,35-44,$75k-$100k,10/17/2021
+641,true,true,false,SMS,12/23/2020,[{}],Oriya,18-24,$50k-$75k,10/21/2020
+642,false,true,false,SMS,7/1/2021,"[{},{},{}]",Telugu,55-64,$25k-$50k,12/21/2020
+643,true,true,true,email,4/3/2021,"[{},{}]",Maltese,55-64,> $100k,4/21/2021
+644,false,false,false,direct mail,5/24/2021,[],Georgian,35-44,$50k-$75k,3/30/2020
+645,true,true,false,SMS,6/9/2021,"[{},{},{}]",Chinese,35-44,$25k-$50k,3/19/2021
+646,false,true,false,SMS,10/18/2021,"[{},{},{}]",Azeri,65+,< $25k,12/4/2020
+647,true,false,false,email,8/20/2020,[],Albanian,45-54,> $100k,4/7/2020
+648,true,false,true,email,8/24/2020,"[{},{},{},{}]",Polish,35-44,> $100k,11/19/2020
+649,true,false,false,email,7/1/2020,"[{},{}]",Quechua,25-34,$25k-$50k,9/12/2021
+650,false,false,false,SMS,6/12/2021,"[{},{},{}]",German,65+,$50k-$75k,7/14/2021
+651,false,false,false,email,9/21/2020,"[{},{},{},{},{}]",Ndebele,35-44,$75k-$100k,10/26/2020
+652,true,true,false,email,10/16/2021,"[{},{},{},{},{}]",Amharic,25-34,$25k-$50k,12/24/2020
+653,false,true,false,direct mail,8/27/2021,"[{},{},{},{},{}]",Guaraní,65+,$50k-$75k,9/12/2021
+654,true,true,false,email,6/10/2021,[{}],Tswana,25-34,$25k-$50k,6/15/2021
+655,true,false,false,email,1/13/2021,"[{},{},{},{}]",Spanish,25-34,> $100k,10/2/2020
+656,true,false,true,SMS,9/26/2020,"[{},{},{}]",Polish,45-54,> $100k,10/4/2020
+657,true,true,false,direct mail,8/14/2020,[],Northern Sotho,25-34,$25k-$50k,12/25/2021
+658,true,false,true,SMS,12/18/2021,"[{},{},{}]",Quechua,18-24,> $100k,6/14/2020
+659,false,false,false,SMS,2/21/2020,[],Tsonga,25-34,> $100k,1/3/2020
+660,false,false,true,direct mail,8/31/2020,"[{},{}]",Moldovan,18-24,$25k-$50k,4/15/2020
+661,false,false,true,email,5/2/2021,[],Finnish,18-24,> $100k,2/3/2020
+662,false,false,true,SMS,8/7/2021,"[{},{}]",Icelandic,25-34,< $25k,8/9/2021
+663,false,false,true,direct mail,2/24/2020,[{}],Bulgarian,25-34,< $25k,6/3/2021
+664,false,false,true,direct mail,9/1/2020,[{}],Indonesian,18-24,< $25k,11/4/2021
+665,false,true,false,direct mail,7/1/2021,[{}],Swati,45-54,$25k-$50k,12/23/2021
+666,true,true,false,SMS,7/13/2020,"[{},{},{},{}]",Italian,18-24,> $100k,4/10/2021
+667,false,true,true,email,8/13/2021,[],Hebrew,55-64,$75k-$100k,10/28/2020
+668,true,false,false,SMS,11/8/2021,[],Amharic,45-54,$75k-$100k,3/30/2021
+669,false,false,false,email,7/18/2021,[],Guaraní,55-64,$75k-$100k,10/7/2020
+670,true,false,false,direct mail,2/26/2021,[],Papiamento,18-24,$25k-$50k,7/21/2020
+671,false,false,true,direct mail,6/15/2020,"[{},{},{},{},{}]",Armenian,25-34,$25k-$50k,4/23/2020
+672,true,true,true,email,12/23/2021,[{}],Armenian,25-34,> $100k,8/3/2021
+673,true,false,false,SMS,4/2/2020,[],Bengali,55-64,$50k-$75k,7/23/2021
+674,false,false,false,SMS,3/16/2021,[{}],Bengali,45-54,> $100k,10/2/2020
+675,false,false,true,direct mail,3/21/2020,"[{},{},{},{}]",Gujarati,45-54,> $100k,5/19/2020
+676,true,true,true,email,7/20/2020,[{}],Estonian,45-54,$50k-$75k,9/28/2020
+677,false,true,false,SMS,11/18/2020,"[{},{},{},{}]",Amharic,25-34,< $25k,4/30/2021
+678,false,false,true,direct mail,7/1/2021,"[{},{},{},{},{}]",Papiamento,55-64,> $100k,2/26/2020
+679,false,true,true,email,1/9/2020,"[{},{},{}]",Armenian,25-34,$75k-$100k,4/16/2020
+680,true,false,true,email,5/5/2020,"[{},{}]",Czech,65+,$75k-$100k,12/8/2021
+681,false,false,false,direct mail,1/31/2020,[],Bislama,18-24,< $25k,2/26/2020
+682,false,false,false,email,3/12/2021,"[{},{},{},{}]",Korean,35-44,< $25k,10/23/2020
+683,true,true,false,email,5/21/2021,"[{},{},{},{}]",Burmese,45-54,$50k-$75k,6/15/2021
+684,true,false,false,direct mail,7/26/2020,"[{},{},{},{},{}]",Swati,45-54,$25k-$50k,10/7/2020
+685,false,false,false,direct mail,6/30/2020,[],Croatian,45-54,$25k-$50k,2/14/2020
+686,false,true,false,direct mail,4/16/2020,"[{},{},{},{},{}]",Tswana,25-34,> $100k,2/23/2021
+687,false,false,true,SMS,4/30/2021,[],Gujarati,18-24,> $100k,7/26/2020
+688,false,true,true,direct mail,12/5/2021,"[{},{}]",Marathi,25-34,> $100k,5/8/2020
+689,false,false,false,direct mail,8/17/2021,[{}],Korean,65+,$25k-$50k,7/9/2021
+690,false,false,true,direct mail,6/1/2021,"[{},{},{}]",Kyrgyz,65+,$50k-$75k,5/29/2021
+691,false,false,false,email,6/4/2021,"[{},{}]",Irish Gaelic,65+,> $100k,4/24/2020
+692,true,false,true,direct mail,8/8/2021,[],Japanese,55-64,$50k-$75k,2/8/2020
+693,false,false,true,direct mail,11/7/2020,"[{},{},{}]",Luxembourgish,25-34,> $100k,7/2/2021
+694,false,false,true,email,5/9/2020,"[{},{},{},{},{}]",Punjabi,18-24,< $25k,8/25/2021
+695,false,false,true,SMS,4/19/2021,[],Khmer,18-24,$50k-$75k,1/27/2021
+696,true,false,true,email,8/31/2020,[{}],Belarusian,18-24,$50k-$75k,12/11/2020
+697,true,true,true,direct mail,11/3/2021,"[{},{},{},{},{}]",Punjabi,18-24,< $25k,10/24/2020
+698,true,true,false,email,2/21/2021,"[{},{},{},{},{}]",West Frisian,65+,$25k-$50k,7/19/2021
+699,true,false,false,SMS,5/18/2020,"[{},{},{}]",Tamil,25-34,$75k-$100k,9/30/2021
+700,true,false,true,direct mail,11/19/2020,[{}],Telugu,35-44,$75k-$100k,3/29/2021
+701,false,false,true,direct mail,5/28/2020,"[{},{},{},{}]",Chinese,45-54,$75k-$100k,9/30/2020
+702,true,false,true,SMS,6/19/2021,"[{},{}]",Assamese,55-64,< $25k,12/6/2020
+703,true,true,false,SMS,1/27/2020,[],Albanian,45-54,$25k-$50k,7/22/2020
+704,false,true,false,email,10/5/2021,[],Pashto,65+,$75k-$100k,12/6/2020
+705,true,false,false,SMS,4/13/2021,[{}],French,45-54,$75k-$100k,8/2/2020
+706,false,false,false,direct mail,9/5/2021,[{}],Oriya,55-64,$75k-$100k,1/14/2020
+707,false,false,false,SMS,9/20/2021,[],Gujarati,45-54,$75k-$100k,10/6/2021
+708,false,true,false,SMS,1/29/2020,"[{},{},{},{},{}]",Guaraní,25-34,< $25k,3/5/2021
+709,false,false,false,email,10/22/2020,[{}],Bulgarian,55-64,> $100k,1/25/2020
+710,true,true,false,SMS,3/10/2020,"[{},{}]",Latvian,65+,$25k-$50k,2/7/2021
+711,false,false,false,email,3/6/2020,[{}],West Frisian,35-44,< $25k,9/19/2021
+712,true,true,false,direct mail,6/23/2021,"[{},{},{},{}]",West Frisian,18-24,< $25k,1/11/2021
+713,true,true,true,direct mail,11/4/2020,[],Gagauz,55-64,$75k-$100k,10/7/2021
+714,true,false,true,direct mail,5/2/2021,"[{},{},{}]",Ndebele,45-54,$25k-$50k,11/8/2021
+715,false,true,true,SMS,3/1/2021,[{}],Czech,35-44,$25k-$50k,12/27/2020
+716,true,true,false,email,1/25/2020,"[{},{}]",Azeri,55-64,$25k-$50k,5/15/2021
+717,true,true,false,email,9/30/2021,"[{},{},{},{}]",Danish,18-24,$75k-$100k,12/30/2021
+718,true,true,true,email,6/24/2020,"[{},{}]",Filipino,45-54,$75k-$100k,5/2/2020
+719,true,false,true,SMS,9/25/2021,"[{},{}]",Amharic,55-64,$75k-$100k,3/26/2020
+720,true,true,false,SMS,8/3/2020,"[{},{},{},{}]",Quechua,45-54,> $100k,2/10/2020
+721,false,false,true,direct mail,5/29/2020,[],Finnish,25-34,< $25k,11/12/2021
+722,false,true,true,direct mail,2/5/2021,"[{},{},{},{},{}]",West Frisian,18-24,< $25k,6/7/2021
+723,false,false,true,direct mail,8/16/2021,"[{},{}]",Croatian,25-34,$75k-$100k,2/18/2021
+724,false,false,false,direct mail,5/27/2020,"[{},{},{}]",Dutch,35-44,$50k-$75k,6/18/2020
+725,false,true,false,SMS,12/16/2021,"[{},{},{},{}]",Telugu,18-24,> $100k,10/10/2020
+726,false,true,false,SMS,9/29/2020,"[{},{},{}]",Hebrew,18-24,$50k-$75k,5/19/2020
+727,false,true,false,SMS,7/28/2021,[],Kazakh,55-64,$75k-$100k,4/28/2020
+728,false,true,false,SMS,3/26/2020,[],English,18-24,$25k-$50k,6/6/2021
+729,false,true,false,email,8/3/2021,"[{},{},{},{}]",Italian,45-54,> $100k,10/27/2020
+730,true,false,false,SMS,6/17/2020,"[{},{},{},{}]",Aymara,65+,> $100k,11/16/2020
+731,false,true,true,direct mail,10/13/2021,"[{},{},{},{},{}]",Marathi,45-54,$75k-$100k,12/29/2020
+732,false,true,true,SMS,6/24/2021,"[{},{}]",Lao,25-34,$50k-$75k,9/3/2020
+733,true,false,false,direct mail,11/1/2021,[{}],Bengali,55-64,$50k-$75k,12/2/2020
+734,true,false,true,SMS,1/19/2020,"[{},{},{},{},{}]",Tok Pisin,55-64,$25k-$50k,4/8/2020
+735,true,true,true,SMS,4/3/2020,[],Fijian,45-54,$50k-$75k,12/6/2021
+736,false,false,true,email,2/6/2020,"[{},{}]",Lithuanian,55-64,$50k-$75k,9/9/2021
+737,false,false,true,email,3/2/2021,[{}],Papiamento,35-44,$75k-$100k,2/8/2020
+738,true,true,false,email,9/18/2020,[{}],Portuguese,25-34,< $25k,11/4/2020
+739,true,false,true,email,9/25/2021,"[{},{},{},{}]",Irish Gaelic,35-44,> $100k,9/21/2020
+740,true,false,true,email,12/21/2020,[],Mongolian,18-24,$25k-$50k,4/23/2021
+741,false,true,true,SMS,3/19/2020,[{}],Amharic,55-64,< $25k,4/29/2021
+742,true,false,true,email,5/15/2021,"[{},{}]",Dhivehi,55-64,$50k-$75k,9/5/2021
+743,true,false,false,email,1/31/2021,"[{},{}]",Somali,35-44,> $100k,3/19/2020
+744,true,false,true,SMS,4/24/2021,[{}],Bislama,55-64,$75k-$100k,5/5/2021
+745,true,true,true,email,12/3/2020,"[{},{},{}]",Tok Pisin,45-54,$50k-$75k,12/18/2020
+746,false,true,true,email,7/12/2020,[],Hebrew,65+,$50k-$75k,6/26/2021
+747,false,false,false,email,9/3/2020,"[{},{},{},{}]",Malayalam,25-34,$75k-$100k,8/5/2020
+748,false,false,false,email,4/28/2020,"[{},{},{}]",Tok Pisin,45-54,$75k-$100k,8/19/2020
+749,false,true,false,email,10/3/2020,[{}],West Frisian,55-64,$75k-$100k,7/11/2020
+750,true,true,true,direct mail,2/3/2021,"[{},{},{},{}]",Khmer,65+,> $100k,2/21/2020
+751,true,false,true,SMS,4/13/2021,"[{},{},{},{},{}]",Catalan,18-24,$50k-$75k,1/19/2021
+752,true,true,true,SMS,2/9/2020,"[{},{},{}]",Finnish,25-34,< $25k,5/11/2020
+753,false,true,false,email,9/13/2021,[{}],Arabic,45-54,> $100k,3/7/2020
+754,false,false,true,direct mail,10/23/2021,[{}],Greek,65+,$25k-$50k,4/6/2020
+755,false,true,false,email,5/24/2021,[],Papiamento,65+,$25k-$50k,11/25/2021
+756,true,false,false,direct mail,3/23/2021,"[{},{},{},{},{}]",English,25-34,$75k-$100k,9/24/2021
+757,false,true,false,email,9/28/2021,[],Catalan,55-64,$50k-$75k,10/22/2020
+758,false,false,true,SMS,7/30/2021,"[{},{},{},{}]",Oriya,55-64,$75k-$100k,9/18/2020
+759,true,false,false,SMS,1/27/2021,"[{},{},{}]",Malay,35-44,$75k-$100k,5/31/2020
+760,true,true,true,SMS,10/3/2020,[],Tok Pisin,65+,$25k-$50k,12/28/2021
+761,false,false,true,direct mail,2/22/2020,[{}],Portuguese,25-34,< $25k,10/18/2020
+762,true,false,true,email,3/3/2021,[{}],Hungarian,65+,< $25k,7/31/2021
+763,true,true,true,SMS,8/25/2020,[{}],Zulu,65+,$75k-$100k,11/29/2021
+764,false,false,true,SMS,3/16/2020,[],Hungarian,55-64,$50k-$75k,9/30/2021
+765,true,false,true,email,12/6/2020,"[{},{},{},{},{}]",Maltese,45-54,$25k-$50k,10/4/2021
+766,false,true,true,direct mail,1/27/2020,[{}],Tswana,35-44,< $25k,7/13/2021
+767,true,true,true,direct mail,11/2/2021,"[{},{},{},{},{}]",English,65+,$50k-$75k,12/7/2020
+768,false,false,false,email,7/4/2020,"[{},{},{}]",Hiri Motu,35-44,$25k-$50k,12/1/2020
+769,false,false,true,direct mail,1/7/2021,"[{},{}]",Gagauz,25-34,< $25k,7/9/2020
+770,false,true,false,email,11/29/2021,[],Haitian Creole,35-44,$50k-$75k,3/7/2021
+771,false,true,false,direct mail,12/23/2020,"[{},{},{},{},{}]",Albanian,45-54,$75k-$100k,3/6/2021
+772,false,false,true,SMS,6/30/2021,"[{},{},{},{},{}]",Kannada,45-54,> $100k,6/15/2020
+773,true,true,true,SMS,1/4/2020,"[{},{},{},{},{}]",Malayalam,25-34,$50k-$75k,2/2/2021
+774,false,true,true,SMS,2/28/2020,[{}],Filipino,18-24,$50k-$75k,3/13/2020
+775,false,true,true,email,8/5/2020,[{}],Haitian Creole,45-54,$75k-$100k,5/22/2020
+776,false,true,true,email,6/25/2020,[],Amharic,18-24,$50k-$75k,2/19/2020
+777,false,true,true,email,2/5/2020,[{}],Danish,65+,> $100k,5/30/2020
+778,true,true,false,email,9/3/2020,[],Greek,55-64,$75k-$100k,12/11/2021
+779,true,true,false,direct mail,5/14/2020,[{}],Luxembourgish,18-24,$75k-$100k,5/27/2020
+780,false,false,false,direct mail,6/5/2021,[],Luxembourgish,55-64,$50k-$75k,1/26/2021
+781,false,false,true,email,12/5/2021,[],Aymara,55-64,< $25k,10/29/2020
+782,false,false,true,SMS,1/4/2021,"[{},{},{},{}]",Italian,18-24,< $25k,10/27/2020
+783,true,true,false,email,12/12/2020,[],Malayalam,65+,> $100k,6/9/2020
+784,true,false,true,SMS,11/5/2020,"[{},{},{}]",French,45-54,$25k-$50k,10/13/2021
+785,true,true,true,email,6/20/2021,[{}],Papiamento,35-44,$25k-$50k,5/20/2021
+786,true,true,true,SMS,6/9/2020,[{}],Quechua,55-64,$25k-$50k,3/27/2021
+787,false,true,false,SMS,2/22/2020,"[{},{}]",English,55-64,$50k-$75k,7/5/2020
+788,false,false,true,direct mail,5/12/2021,"[{},{},{},{}]",Oriya,55-64,> $100k,3/3/2020
+789,false,false,false,SMS,3/3/2021,[],Hindi,65+,$75k-$100k,3/26/2020
+790,false,false,true,direct mail,11/7/2021,[{}],Marathi,25-34,$50k-$75k,7/22/2021
+791,true,false,true,SMS,2/16/2020,"[{},{}]",Portuguese,35-44,$50k-$75k,8/8/2021
+792,true,true,false,direct mail,5/12/2020,[],Tetum,65+,$75k-$100k,2/1/2020
+793,false,true,true,email,6/8/2021,"[{},{},{}]",Hiri Motu,55-64,$50k-$75k,3/28/2021
+794,true,false,true,email,1/25/2021,"[{},{},{}]",Malagasy,18-24,$25k-$50k,5/2/2020
+795,false,false,true,SMS,12/11/2020,"[{},{}]",Polish,45-54,$75k-$100k,6/23/2020
+796,false,false,false,SMS,1/4/2020,[],Korean,65+,< $25k,4/11/2020
+797,true,true,true,SMS,1/26/2021,[{}],Icelandic,45-54,$75k-$100k,4/8/2021
+798,false,true,true,direct mail,3/6/2020,"[{},{},{},{},{}]",Dhivehi,18-24,$75k-$100k,12/16/2020
+799,false,true,true,direct mail,12/26/2020,[{}],Portuguese,55-64,$75k-$100k,8/4/2020
+800,false,false,false,SMS,9/30/2021,"[{},{},{},{},{}]",Croatian,25-34,$75k-$100k,12/29/2020
+801,false,true,false,SMS,9/7/2021,"[{},{},{},{}]",Georgian,45-54,< $25k,11/5/2020
+802,true,false,true,direct mail,3/17/2020,[{}],Malayalam,65+,$75k-$100k,8/12/2020
+803,false,false,false,SMS,9/16/2021,"[{},{}]",Belarusian,25-34,$75k-$100k,7/18/2020
+804,true,false,true,email,11/4/2020,[],Thai,25-34,$75k-$100k,9/28/2020
+805,true,false,false,direct mail,9/20/2020,"[{},{},{}]",Telugu,35-44,< $25k,10/26/2020
+806,false,false,true,direct mail,11/26/2020,"[{},{},{},{}]",Swahili,25-34,< $25k,5/26/2020
+807,false,true,true,SMS,2/5/2021,"[{},{},{},{}]",Hungarian,55-64,< $25k,1/3/2020
+808,true,false,false,email,12/6/2020,[],Bengali,65+,$25k-$50k,5/21/2020
+809,false,true,false,direct mail,3/22/2020,[],Dari,18-24,$50k-$75k,7/14/2020
+810,true,true,true,direct mail,7/31/2021,"[{},{}]",Portuguese,65+,> $100k,5/23/2021
+811,false,false,true,direct mail,7/8/2020,"[{},{},{},{}]",Icelandic,35-44,< $25k,4/7/2020
+812,true,true,true,SMS,12/6/2021,[],Thai,45-54,< $25k,8/16/2021
+813,true,false,true,SMS,12/8/2020,"[{},{},{},{}]",Hiri Motu,65+,$25k-$50k,5/9/2020
+814,true,false,false,direct mail,5/21/2021,"[{},{},{}]",Gagauz,65+,$25k-$50k,1/23/2020
+815,true,false,false,direct mail,4/19/2020,"[{},{},{}]",Macedonian,45-54,> $100k,6/7/2021
+816,true,true,false,direct mail,4/10/2020,"[{},{},{},{}]",Croatian,25-34,$25k-$50k,1/26/2021
+817,false,true,false,direct mail,1/10/2021,[],Aymara,65+,$25k-$50k,9/12/2021
+818,false,false,true,SMS,8/10/2020,"[{},{},{}]",Dutch,35-44,< $25k,4/19/2021
+819,false,true,false,email,8/1/2021,"[{},{}]",Fijian,45-54,< $25k,2/7/2020
+820,true,false,false,email,2/23/2020,[{}],Nepali,35-44,$50k-$75k,12/1/2020
+821,true,true,false,SMS,5/22/2021,"[{},{},{}]",Polish,55-64,$75k-$100k,7/26/2021
+822,true,false,false,direct mail,7/29/2021,"[{},{}]",Norwegian,65+,$75k-$100k,11/16/2020
+823,false,false,true,direct mail,4/4/2021,"[{},{}]",Oriya,45-54,> $100k,3/4/2020
+824,false,false,true,email,8/12/2020,"[{},{},{},{}]",Māori,35-44,$50k-$75k,1/1/2021
+825,false,true,true,email,3/2/2020,"[{},{}]",Bosnian,18-24,$25k-$50k,6/2/2020
+826,false,false,true,SMS,5/31/2020,[],Spanish,25-34,$75k-$100k,6/21/2021
+827,false,true,true,direct mail,3/4/2020,"[{},{},{},{},{}]",Filipino,65+,< $25k,11/23/2021
+828,false,true,false,email,12/12/2021,"[{},{},{},{},{}]",Moldovan,18-24,$75k-$100k,12/4/2021
+829,true,false,true,SMS,10/12/2021,[{}],Khmer,45-54,$50k-$75k,4/24/2020
+830,true,true,false,direct mail,3/25/2021,"[{},{},{}]",West Frisian,45-54,< $25k,6/5/2021
+831,false,true,false,email,11/9/2021,"[{},{},{}]",Hungarian,55-64,> $100k,8/21/2021
+832,true,true,true,SMS,3/2/2020,[{}],Nepali,18-24,$50k-$75k,6/29/2021
+833,true,true,true,email,6/21/2020,"[{},{},{},{},{}]",Haitian Creole,65+,$75k-$100k,10/10/2020
+834,false,false,true,direct mail,11/11/2021,"[{},{},{},{},{}]",Zulu,35-44,$75k-$100k,9/14/2021
+835,false,false,false,SMS,5/28/2020,"[{},{},{}]",Hungarian,55-64,> $100k,4/10/2020
+836,false,true,false,email,9/7/2021,[{}],Finnish,55-64,< $25k,4/27/2021
+837,true,true,false,email,5/1/2020,"[{},{}]",Northern Sotho,55-64,$25k-$50k,2/26/2021
+838,false,true,false,email,8/3/2021,"[{},{},{}]",Aymara,65+,< $25k,7/7/2021
+839,true,true,true,SMS,12/20/2021,[],Oriya,55-64,> $100k,8/22/2021
+840,true,true,false,email,3/8/2021,[{}],Arabic,45-54,> $100k,12/14/2021
+841,true,false,true,direct mail,3/12/2020,"[{},{},{},{},{}]",Korean,45-54,$75k-$100k,2/24/2020
+842,false,false,true,email,7/5/2020,"[{},{},{},{}]",Khmer,18-24,> $100k,9/28/2021
+843,false,true,true,direct mail,7/27/2020,"[{},{},{},{},{}]",Nepali,25-34,> $100k,6/10/2021
+844,true,true,true,direct mail,12/1/2021,[{}],Yiddish,45-54,$50k-$75k,9/14/2021
+845,true,false,true,email,8/10/2021,"[{},{}]",Hindi,55-64,> $100k,6/19/2021
+846,false,true,true,SMS,5/23/2020,"[{},{},{},{}]",Burmese,25-34,$75k-$100k,4/15/2020
+847,true,true,false,direct mail,9/1/2021,[{}],Amharic,25-34,$25k-$50k,7/10/2020
+848,true,false,true,email,9/23/2021,"[{},{}]",Gagauz,55-64,< $25k,12/25/2021
+849,true,true,false,email,9/20/2020,"[{},{},{}]",Burmese,35-44,> $100k,4/7/2020
+850,false,false,true,SMS,1/13/2021,[{}],Māori,18-24,> $100k,6/17/2021
+851,true,true,true,direct mail,9/17/2021,[],Thai,25-34,$50k-$75k,12/4/2020
+852,false,false,false,direct mail,8/15/2020,"[{},{},{}]",Gagauz,35-44,$75k-$100k,4/9/2020
+853,true,true,false,direct mail,12/9/2021,"[{},{}]",English,65+,$50k-$75k,6/8/2020
+854,false,false,false,direct mail,6/29/2020,[{}],Catalan,55-64,$75k-$100k,11/16/2021
+855,false,true,true,email,10/10/2021,[],Icelandic,55-64,< $25k,7/10/2021
+856,false,true,true,SMS,3/20/2021,[{}],Dzongkha,55-64,$50k-$75k,5/24/2021
+857,true,true,true,SMS,8/2/2021,"[{},{},{},{}]",Italian,35-44,$75k-$100k,12/11/2020
+858,true,false,false,SMS,7/29/2020,"[{},{},{},{}]",West Frisian,55-64,$25k-$50k,3/20/2021
+859,true,true,false,SMS,9/20/2021,"[{},{}]",Hiri Motu,65+,> $100k,12/29/2021
+860,true,false,false,direct mail,9/22/2020,"[{},{},{},{}]",Kannada,55-64,$25k-$50k,4/27/2020
+861,false,false,false,SMS,9/28/2021,"[{},{},{}]",Kurdish,35-44,$50k-$75k,4/24/2021
+862,false,true,true,email,8/18/2020,[{}],Afrikaans,45-54,< $25k,11/4/2021
+863,false,true,true,email,9/12/2021,"[{},{},{},{},{}]",Maltese,18-24,> $100k,8/28/2020
+864,false,false,false,SMS,2/12/2021,[{}],Swedish,35-44,$75k-$100k,4/17/2021
+865,true,true,false,SMS,8/16/2021,"[{},{},{},{}]",Māori,65+,$75k-$100k,6/27/2021
+866,false,false,false,SMS,8/11/2021,[],Somali,25-34,$75k-$100k,7/5/2020
+867,true,false,false,SMS,7/26/2021,"[{},{}]",Kazakh,35-44,< $25k,8/24/2021
+868,false,true,false,direct mail,4/8/2020,[{}],Kazakh,45-54,$75k-$100k,9/6/2021
+869,true,true,true,direct mail,10/9/2020,"[{},{},{}]",Arabic,45-54,$75k-$100k,5/9/2021
+870,false,false,false,SMS,11/7/2021,"[{},{}]",Punjabi,25-34,$25k-$50k,12/27/2021
+871,true,false,true,direct mail,3/27/2020,"[{},{},{},{},{}]",Gujarati,18-24,$75k-$100k,11/29/2020
+872,true,true,true,direct mail,9/8/2020,"[{},{},{}]",Malayalam,65+,< $25k,8/5/2020
+873,true,false,false,direct mail,7/26/2020,"[{},{},{}]",Papiamento,25-34,< $25k,7/25/2020
+874,true,true,false,SMS,5/22/2021,"[{},{}]",Burmese,45-54,$50k-$75k,10/2/2021
+875,false,true,false,email,8/24/2020,"[{},{},{},{}]",Ndebele,25-34,$25k-$50k,4/7/2020
+876,true,false,false,SMS,2/5/2020,"[{},{},{}]",Kurdish,65+,$50k-$75k,9/13/2020
+877,false,true,true,email,7/20/2020,"[{},{}]",German,45-54,< $25k,11/10/2021
+878,true,true,false,SMS,9/14/2020,"[{},{},{},{}]",Northern Sotho,35-44,> $100k,5/11/2021
+879,true,false,true,direct mail,2/5/2020,"[{},{},{},{}]",Luxembourgish,25-34,< $25k,11/10/2021
+880,true,true,false,direct mail,3/11/2020,"[{},{}]",Belarusian,18-24,$25k-$50k,7/8/2021
+881,false,true,false,email,9/27/2021,"[{},{},{},{},{}]",Irish Gaelic,18-24,$75k-$100k,5/23/2021
+882,false,true,true,direct mail,11/30/2020,"[{},{},{},{},{}]",Gujarati,25-34,$25k-$50k,8/10/2021
+883,false,false,true,email,7/13/2021,[{}],Japanese,45-54,$25k-$50k,8/28/2021
+884,true,false,false,SMS,1/20/2021,"[{},{},{}]",Lao,18-24,$75k-$100k,6/12/2020
+885,false,false,true,email,5/1/2021,"[{},{},{}]",Tok Pisin,25-34,$25k-$50k,1/19/2021
+886,false,false,false,direct mail,8/31/2020,"[{},{}]",German,25-34,> $100k,4/10/2021
+887,false,false,false,email,10/1/2020,[{}],Hebrew,25-34,< $25k,4/9/2020
+888,false,true,true,direct mail,4/15/2020,[{}],Arabic,55-64,< $25k,12/30/2020
+889,true,true,false,email,11/3/2021,"[{},{},{}]",Papiamento,45-54,$25k-$50k,12/4/2020
+890,true,true,true,direct mail,4/29/2021,"[{},{},{}]",Hebrew,25-34,$50k-$75k,11/27/2020
+891,true,true,false,SMS,1/19/2020,"[{},{},{},{}]",Armenian,65+,< $25k,11/14/2020
+892,false,true,true,direct mail,12/4/2020,"[{},{}]",Afrikaans,45-54,> $100k,2/9/2020
+893,true,false,false,SMS,5/21/2020,"[{},{},{},{}]",Arabic,55-64,$50k-$75k,5/25/2021
+894,true,false,true,direct mail,8/17/2020,"[{},{},{},{},{}]",Greek,18-24,$50k-$75k,7/26/2021
+895,false,false,false,direct mail,7/14/2021,"[{},{},{},{},{}]",Montenegrin,25-34,< $25k,9/1/2021
+896,true,true,true,direct mail,10/29/2021,"[{},{},{}]",Swati,65+,< $25k,9/16/2021
+897,true,true,false,SMS,8/30/2020,"[{},{},{},{}]",Bulgarian,65+,$50k-$75k,2/18/2020
+898,true,true,false,SMS,11/3/2021,"[{},{},{},{},{}]",Telugu,35-44,$50k-$75k,1/3/2021
+899,false,true,true,email,7/20/2021,"[{},{},{},{},{}]",Icelandic,35-44,> $100k,1/7/2020
+900,true,false,true,email,10/9/2020,"[{},{},{},{},{}]",Guaraní,55-64,$75k-$100k,12/14/2020
+901,true,true,true,SMS,11/23/2020,"[{},{},{},{}]",West Frisian,35-44,< $25k,2/7/2020
+902,true,true,false,direct mail,11/23/2021,[],Dzongkha,25-34,$50k-$75k,11/17/2020
+903,false,true,false,direct mail,6/27/2020,[],Hindi,35-44,$75k-$100k,8/24/2021
+904,false,false,true,direct mail,2/4/2020,"[{},{},{},{},{}]",Māori,18-24,> $100k,6/15/2020
+905,false,true,false,email,7/18/2020,[{}],Greek,25-34,$50k-$75k,4/25/2020
+906,true,true,false,direct mail,8/21/2020,"[{},{},{},{},{}]",Zulu,25-34,$25k-$50k,11/13/2021
+907,false,true,true,direct mail,2/27/2021,"[{},{},{}]",Greek,18-24,$50k-$75k,7/23/2020
+908,false,true,false,direct mail,9/14/2020,[],Lithuanian,55-64,> $100k,7/14/2020
+909,true,true,false,SMS,4/27/2021,[{}],Hungarian,65+,$50k-$75k,3/31/2020
+910,false,false,false,direct mail,11/1/2021,"[{},{},{},{},{}]",Irish Gaelic,55-64,$25k-$50k,4/2/2021
+911,true,false,true,email,4/30/2020,"[{},{},{}]",Latvian,55-64,$50k-$75k,8/31/2021
+912,false,false,false,email,9/25/2021,"[{},{},{},{},{}]",Tswana,35-44,$25k-$50k,8/22/2020
+913,true,true,false,direct mail,3/3/2021,[],Gujarati,55-64,$25k-$50k,12/2/2020
+914,true,false,true,direct mail,6/8/2020,"[{},{}]",New Zealand Sign Language,25-34,< $25k,8/23/2020
+915,false,true,true,email,2/7/2020,"[{},{},{},{}]",Tsonga,65+,< $25k,4/30/2020
+916,true,false,false,email,5/6/2021,[{}],Malayalam,25-34,$25k-$50k,4/1/2021
+917,false,true,false,direct mail,1/5/2020,"[{},{},{}]",Dhivehi,18-24,< $25k,6/10/2020
+918,false,true,true,SMS,6/20/2021,"[{},{},{},{},{}]",Latvian,45-54,< $25k,1/20/2020
+919,true,true,true,email,7/25/2020,[],Bengali,55-64,$75k-$100k,10/4/2020
+920,false,true,true,direct mail,4/13/2020,"[{},{},{},{}]",English,45-54,< $25k,6/5/2021
+921,false,true,true,direct mail,2/9/2020,[{}],Northern Sotho,35-44,> $100k,1/18/2021
+922,false,false,false,email,4/5/2021,[],Somali,35-44,< $25k,3/2/2020
+923,true,true,true,direct mail,9/26/2020,"[{},{},{},{}]",Bosnian,25-34,< $25k,2/10/2020
+924,true,false,false,direct mail,6/5/2021,[],Belarusian,35-44,$25k-$50k,1/4/2020
+925,true,true,true,direct mail,11/25/2021,[],Lithuanian,65+,< $25k,1/17/2021
+926,true,true,true,email,2/24/2020,"[{},{},{},{}]",Korean,18-24,< $25k,7/20/2020
+927,false,true,true,direct mail,10/26/2020,"[{},{},{},{},{}]",Burmese,25-34,$50k-$75k,1/21/2021
+928,false,true,true,email,7/5/2021,[],Maltese,25-34,< $25k,10/23/2021
+929,false,false,false,email,1/18/2020,[],Norwegian,45-54,> $100k,5/29/2021
+930,false,true,true,direct mail,10/28/2021,"[{},{},{},{},{}]",Japanese,25-34,> $100k,12/22/2020
+931,true,true,true,email,11/8/2021,"[{},{},{}]",Danish,65+,$75k-$100k,11/24/2020
+932,false,false,false,direct mail,5/7/2020,"[{},{}]",Luxembourgish,65+,$75k-$100k,8/11/2020
+933,false,false,false,direct mail,7/1/2021,"[{},{},{},{}]",Spanish,35-44,$50k-$75k,7/21/2020
+934,true,false,false,SMS,6/14/2020,"[{},{},{},{},{}]",Hungarian,55-64,$75k-$100k,1/18/2020
+935,false,false,true,email,11/24/2021,[{}],Papiamento,25-34,< $25k,11/3/2020
+936,false,true,true,direct mail,8/31/2020,"[{},{}]",Azeri,35-44,$50k-$75k,7/19/2021
+937,false,true,false,direct mail,1/24/2020,[{}],Punjabi,35-44,$25k-$50k,11/26/2021
+938,true,false,false,SMS,1/3/2020,[{}],Malay,55-64,> $100k,10/21/2020
+939,true,true,true,email,9/19/2021,"[{},{},{}]",Tajik,55-64,$75k-$100k,3/29/2021
+940,true,false,false,SMS,9/8/2021,"[{},{},{},{},{}]",Tetum,35-44,$25k-$50k,7/20/2021
+941,true,true,false,SMS,9/14/2020,"[{},{},{},{}]",Malay,65+,$25k-$50k,8/4/2021
+942,false,false,true,direct mail,4/3/2021,[{}],Thai,45-54,$75k-$100k,4/29/2021
+943,false,true,false,direct mail,6/16/2021,[],Pashto,45-54,$75k-$100k,11/10/2020
+944,false,true,true,SMS,8/27/2020,[],Latvian,55-64,< $25k,3/29/2021
+945,true,true,false,direct mail,7/7/2020,"[{},{},{},{},{}]",Yiddish,55-64,< $25k,1/11/2021
+946,false,false,true,email,10/28/2020,"[{},{},{},{},{}]",Albanian,18-24,$75k-$100k,11/16/2020
+947,false,true,false,direct mail,1/7/2020,"[{},{},{},{}]",Oriya,25-34,> $100k,7/26/2020
+948,false,true,true,email,10/27/2020,"[{},{},{},{},{}]",Khmer,65+,$25k-$50k,1/24/2020
+949,true,false,true,email,4/8/2021,[{}],Haitian Creole,55-64,$25k-$50k,3/19/2021
+950,true,true,false,direct mail,4/2/2020,"[{},{}]",Lithuanian,18-24,< $25k,3/24/2021
+951,true,true,true,SMS,1/31/2020,[{}],Guaraní,35-44,> $100k,4/14/2021
+952,true,true,true,email,12/6/2020,"[{},{},{}]",Irish Gaelic,25-34,$50k-$75k,2/12/2020
+953,false,false,true,SMS,5/14/2021,"[{},{},{},{}]",Belarusian,65+,> $100k,8/21/2020
+954,true,false,false,SMS,7/1/2021,[],Ndebele,35-44,< $25k,5/6/2020
+955,false,false,false,email,5/22/2020,[],Filipino,18-24,$50k-$75k,9/29/2020
+956,false,true,false,email,10/25/2021,"[{},{}]",Kyrgyz,55-64,< $25k,6/13/2020
+957,true,false,false,direct mail,9/5/2020,"[{},{},{},{},{}]",Bosnian,25-34,> $100k,6/23/2021
+958,false,true,true,SMS,9/22/2021,"[{},{},{},{}]",Korean,25-34,$75k-$100k,1/18/2020
+959,false,true,true,SMS,11/15/2021,"[{},{},{},{}]",Mongolian,25-34,$75k-$100k,6/21/2021
+960,true,true,false,SMS,7/15/2020,"[{},{},{},{}]",Hiri Motu,25-34,$50k-$75k,12/16/2021
+961,false,true,true,email,9/13/2020,"[{},{},{},{},{}]",Bislama,65+,< $25k,6/12/2020
+962,false,false,false,direct mail,5/17/2021,"[{},{},{},{},{}]",Persian,65+,$75k-$100k,6/6/2020
+963,true,true,false,SMS,9/14/2021,"[{},{}]",German,35-44,> $100k,9/19/2021
+964,false,true,false,email,6/8/2020,[],Lao,25-34,> $100k,10/18/2020
+965,true,true,false,direct mail,3/18/2020,[{}],Oriya,45-54,$50k-$75k,2/22/2021
+966,false,false,true,SMS,6/15/2020,[],West Frisian,55-64,$25k-$50k,10/10/2021
+967,false,false,false,email,5/12/2020,"[{},{},{},{},{}]",Swedish,55-64,$25k-$50k,4/7/2020
+968,false,false,false,email,1/1/2021,"[{},{},{},{}]",Maltese,45-54,< $25k,10/6/2021
+969,true,false,true,email,6/4/2021,[],Maltese,65+,$25k-$50k,4/16/2021
+970,true,true,true,email,11/18/2020,"[{},{},{},{}]",Portuguese,45-54,> $100k,11/8/2020
+971,false,false,false,SMS,4/1/2021,[],Thai,45-54,$25k-$50k,5/6/2021
+972,true,false,false,SMS,12/23/2020,"[{},{},{},{},{}]",Gujarati,55-64,> $100k,4/26/2021
+973,false,true,false,direct mail,5/17/2020,"[{},{},{},{},{}]",West Frisian,35-44,$75k-$100k,5/17/2021
+974,false,true,true,email,2/24/2020,"[{},{},{},{},{}]",Bosnian,65+,$75k-$100k,2/14/2021
+975,true,true,true,email,3/24/2021,[{}],Bosnian,25-34,> $100k,9/16/2021
+976,false,false,true,email,6/16/2020,[{}],German,18-24,$75k-$100k,10/2/2020
+977,false,true,false,direct mail,8/12/2021,"[{},{}]",Bislama,35-44,$50k-$75k,3/15/2021
+978,true,false,false,email,12/27/2020,"[{},{}]",Sotho,65+,$50k-$75k,1/5/2020
+979,false,false,false,direct mail,12/14/2020,"[{},{},{},{}]",Afrikaans,55-64,> $100k,8/8/2020
+980,true,false,false,direct mail,5/3/2021,[],Catalan,18-24,$25k-$50k,11/19/2020
+981,false,true,true,direct mail,3/14/2020,"[{},{},{},{},{}]",Belarusian,55-64,< $25k,8/4/2021
+982,true,true,false,direct mail,10/31/2021,[{}],Telugu,55-64,$50k-$75k,8/25/2020
+983,true,false,false,SMS,8/1/2020,"[{},{},{},{}]",Marathi,18-24,< $25k,3/20/2020
+984,true,true,true,SMS,11/18/2021,"[{},{},{},{}]",Bulgarian,55-64,$75k-$100k,11/2/2021
+985,false,false,true,direct mail,7/9/2021,"[{},{}]",Romanian,18-24,< $25k,1/31/2021
+986,true,true,false,email,2/16/2020,[],French,45-54,$50k-$75k,1/6/2021
+987,false,true,true,direct mail,9/21/2020,[],Oriya,25-34,< $25k,6/16/2021
+988,false,false,false,direct mail,10/7/2020,[],Somali,45-54,> $100k,3/12/2021
+989,true,true,true,SMS,5/13/2021,"[{},{}]",Malayalam,55-64,$75k-$100k,6/1/2020
+990,true,true,false,email,9/24/2021,[],Lao,18-24,> $100k,2/24/2021
+991,true,false,true,direct mail,8/9/2020,[{}],Japanese,55-64,$75k-$100k,10/4/2020
+992,false,true,true,SMS,12/2/2021,[],Malayalam,18-24,$50k-$75k,10/2/2021
+993,false,false,true,direct mail,4/22/2021,"[{},{},{}]",Georgian,65+,$25k-$50k,12/14/2020
+994,true,false,true,direct mail,7/11/2020,"[{},{},{},{},{}]",Malay,45-54,> $100k,7/18/2021
+995,true,false,true,direct mail,6/26/2020,[{}],Tamil,35-44,< $25k,12/24/2020
+996,false,false,false,email,4/20/2021,[],Tsonga,35-44,$75k-$100k,8/23/2021
+997,true,true,false,email,3/11/2020,[{}],Danish,35-44,> $100k,5/1/2020
+998,false,true,false,SMS,3/23/2020,[],Bosnian,45-54,$75k-$100k,3/21/2020
+999,true,true,false,email,2/7/2020,"[{},{}]",Dzongkha,18-24,< $25k,5/22/2021
+1000,false,true,true,direct mail,9/27/2021,"[{},{},{},{},{}]",Luxembourgish,25-34,$75k-$100k,11/13/2021

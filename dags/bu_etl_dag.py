@@ -40,12 +40,12 @@ def process_data(ti, business_unit, **kwargs):
 
 
 with DAG(
-        dag_id="bu_etl_dag",
-        description="Business Unit ETL DAG",
-        default_args=default_args,
-        start_date=days_ago(1),
-        doc_md=DOC_MD,
-        schedule_interval=None,
+    dag_id="bu_etl_dag",
+    description="Business Unit ETL DAG",
+    default_args=default_args,
+    start_date=days_ago(1),
+    doc_md=DOC_MD,
+    schedule_interval=None,
 ) as dag:
     get_business_unit_uris_task = BusinessUnitOperator(
         task_id="get_business_unit_uris", business_unit="analytics_squad_1", dag=dag
